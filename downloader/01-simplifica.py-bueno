@@ -1,0 +1,239 @@
+#!/usr/bin/env python
+import os
+import glob
+import shutil
+import pandas as pd
+import json
+import re
+import sys
+
+# Configuración de directorios
+BASE_DIR = "/lab/visualdata-ia/data_in"
+INPUT_DIR = os.path.join(BASE_DIR, "downloaded")
+OUTPUT_DIR = os.path.join(BASE_DIR, "simplified")
+RAW_DIR = os.path.join(BASE_DIR, "raw")
+
+# Asegurar que existan los directorios de salida
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(RAW_DIR, exist_ok=True)
+
+def clean_html(text):
+    """Elimina etiquetas HTML de un texto."""
+    if not isinstance(text, str):
+        return ""
+    # Eliminar etiquetas HTML
+    clean = re.sub(r'<[^>]+>', '', text)
+    # Reemplazar múltiples espacios/saltos de línea por uno solo
+    clean = re.sub(r'\s+', ' ', clean).strip()
+    return clean
+
+def extract_attributes_to_dict(row, attr_pairs):
+    """
+    Extrae los atributos de una fila y devuelve un diccionario.
+    attr_pairs es una lista de tuplas (col_nombre, col_valor).
+    """
+    attrs = {}
+    for col_name, col_val in attr_pairs:
+        # Obtenemos nombre y valor, asegurando que sean cadenas
+        k = str(row.get(col_name, "")).strip()
+        v = str(row.get(col_val, "")).strip()
+        
+        # Ignorar si el nombre del atributo está vacío o es nan
+        if k and k.lower() != 'nan' and k.lower() != 'none':
+            attrs[k] = v
+    return attrs
+
+def merge_attributes(parent_attrs, variants_attrs_list):
+    """
+    Mezcla los atributos del padre con una lista de diccionarios de atributos de los hijos.
+    Si un atributo tiene múltiples valores distintos entre los hijos, se convierte en una lista.
+    """
+    final_attrs = parent_attrs.copy()
+    
+    # Diccionario temporal para recolectar todos los valores posibles por clave
+    collected_values = {}
+    
+    # Inicializar con valores del padre
+    for k, v in parent_attrs.items():
+        if k not in collected_values:
+            collected_values[k] = set()
+        if v: collected_values[k].add(v)
+        
+    # Agregar valores de las variantes
+    for v_attr in variants_attrs_list:
+        for k, v in v_attr.items():
+            if k not in collected_values:
+                collected_values[k] = set()
+            if v: collected_values[k].add(v)
+            
+    # Construir diccionario final
+    for k, values_set in collected_values.items():
+        val_list = sorted(list(values_set))
+        if len(val_list) == 0:
+            final_attrs[k] = ""
+        elif len(val_list) == 1:
+            final_attrs[k] = val_list[0]
+        else:
+            final_attrs[k] = val_list # Lista de opciones (ej: Talla: [S, M, L])
+            
+    return final_attrs
+
+def process_csv(filepath):
+    filename = os.path.basename(filepath)
+    print(f"Procesando: {filename}")
+
+    try:
+        # Leer CSV. Se usa low_memory=False y dtype=str para evitar errores de tipo en columnas mixtas
+        df = pd.read_csv(filepath, sep=';', dtype=str, encoding='utf-8', on_bad_lines='skip')
+    except Exception as e:
+        print(f"Error leyendo {filename}: {e}")
+        return
+
+    # Normalizar nombres de columnas (strip)
+    df.columns = df.columns.str.strip()
+
+    # Identificar columnas de atributos (pares nombre_atributo_X, valor_atributo_X)
+    # Asumimos que siguen el patrón nombre_atributo_N y valor_atributo_N
+    attr_pairs = []
+    for col in df.columns:
+        if col.startswith("nombre_atributo_"):
+            suffix = col.split("_")[-1] # Obtener el número (1, 2, etc)
+            val_col = f"valor_atributo_{suffix}"
+            if val_col in df.columns:
+                attr_pairs.append((col, val_col))
+
+    # 1. Pre-calcular atributos y limpieza básica para todas las filas
+    # Esto genera una columna temporal con el diccionario de atributos de esa fila
+    df['temp_attrs'] = df.apply(lambda row: extract_attributes_to_dict(row, attr_pairs), axis=1)
+    
+    # Limpieza de cuerpo_es (HTML)
+    if 'cuerpo_es' in df.columns:
+        df['cuerpo_es_clean'] = df['cuerpo_es'].apply(clean_html)
+    else:
+        df['cuerpo_es_clean'] = ""
+
+    # Separar tipos
+    # Asegurar que la columna tipo existe y normalizarla
+    if 'tipo' not in df.columns:
+        print(f"Advertencia: Columna 'tipo' no encontrada en {filename}. Saltando.")
+        return
+        
+    df['tipo'] = df['tipo'].fillna('').str.upper()
+    
+    # Dataframe de productos simples (P)
+    df_p = df[df['tipo'] == 'P'].copy()
+    
+    # Dataframes para productos complejos (M y V)
+    df_m = df[df['tipo'] == 'M'].copy()
+    df_v = df[df['tipo'] == 'V'].copy()
+
+    # --- PROCESAMIENTO DE SIMPLES (P) ---
+    # Para P, el json es simplemente sus atributos
+    df_p['atributos_json'] = df_p['temp_attrs']
+
+    # --- PROCESAMIENTO DE MULTIPLES (M + V) ---
+    processed_m_rows = []
+    
+    if not df_m.empty:
+        # Indexar variantes por su padre.
+        # Asumimos que la columna 'padre' en V contiene la 'referencia' o 'id' del M.
+        # En el ejemplo 'esutil', M(ref=GSC00510) -> V(padre=GSC00510).
+        # Verificamos si existe columna 'padre', si no, intentamos inferir.
+        
+        join_col_v = 'padre' if 'padre' in df.columns else 'id_merchant' # Fallback
+        join_col_m = 'referencia' # El ID de enlace suele ser la referencia en M
+        
+        if join_col_v in df_v.columns and join_col_m in df_m.columns:
+            # Agrupar variantes por el ID del padre
+            grouped_vars = df_v.groupby(join_col_v)
+            
+            for index, row_m in df_m.iterrows():
+                ref_id = row_m.get(join_col_m)
+                
+                # Buscar variantes hijas
+                child_attrs_list = []
+                if ref_id and ref_id in grouped_vars.groups:
+                    children = grouped_vars.get_group(ref_id)
+                    child_attrs_list = children['temp_attrs'].tolist()
+                
+                # Consolidar atributos (Padre + Hijos)
+                merged_attrs = merge_attributes(row_m['temp_attrs'], child_attrs_list)
+                
+                # Asignar al registro M
+                row_m_copy = row_m.copy()
+                row_m_copy['atributos_json'] = merged_attrs
+                processed_m_rows.append(row_m_copy)
+        else:
+            # Si no podemos hacer join, pasamos los M tal cual con sus propios atributos
+            print(f"Advertencia: No se detectaron columnas de enlace (referencia/padre) claras en {filename} para productos M/V.")
+            df_m['atributos_json'] = df_m['temp_attrs']
+            processed_m_rows = [row for _, row in df_m.iterrows()]
+
+    # Crear DataFrame de Ms procesados
+    if processed_m_rows:
+        df_m_final = pd.DataFrame(processed_m_rows)
+    else:
+        df_m_final = pd.DataFrame()
+
+    # --- UNIFICACIÓN Y SALIDA ---
+    # Concatenar Simples y M-consolidados (Ignoramos las filas V originales en la salida final)
+    result_df = pd.concat([df_p, df_m_final], ignore_index=True)
+
+    if result_df.empty:
+        print(f"Advertencia: No se generaron filas de salida para {filename}.")
+        return
+
+    # Serializar la columna atributos a JSON string
+    result_df['atributos'] = result_df['atributos_json'].apply(lambda x: json.dumps(x, ensure_ascii=False))
+
+    # Mapeo de columnas requeridas
+    # Entrada: nombre_es -> Salida: titulo
+    # Entrada: descripcion_es -> Salida: descripcion
+    # Entrada: cuerpo_es_clean -> Salida: cuerpo_Es (Prompt pide cuerpo_Es)
+    
+    # Manejo de columnas faltantes
+    if 'nombre_es' not in result_df.columns: result_df['nombre_es'] = ""
+    if 'descripcion_es' not in result_df.columns: result_df['descripcion_es'] = ""
+    
+    result_df = result_df.rename(columns={
+        'nombre_es': 'titulo',
+        'descripcion_es': 'descripcion',
+        'cuerpo_es_clean': 'cuerpo_Es'
+    })
+
+    # Seleccionar solo las columnas pedidas
+    cols_to_keep = ['titulo', 'descripcion', 'cuerpo_Es', 'atributos']
+    final_output = result_df[cols_to_keep]
+
+    # Guardar CSV simplificado
+    output_filename = filename.replace('.csv', '-simplificado.csv')
+    output_path = os.path.join(OUTPUT_DIR, output_filename)
+    
+    try:
+        final_output.to_csv(output_path, sep=';', index=False, encoding='utf-8')
+        print(f"Guardado: {output_path}")
+        
+        # Mover original a RAW
+        raw_dest = os.path.join(RAW_DIR, filename)
+        shutil.move(filepath, raw_dest)
+        print(f"Movido original a: {raw_dest}")
+        
+    except Exception as e:
+        print(f"Error guardando/moviendo {filename}: {e}")
+
+def main():
+    print("Iniciando proceso de simplificación...")
+    
+    csv_files = glob.glob(os.path.join(INPUT_DIR, "*.csv"))
+    
+    if not csv_files:
+        print("No se encontraron archivos CSV en data_in/downloaded")
+        return
+
+    for filepath in csv_files:
+        process_csv(filepath)
+
+    print("Proceso finalizado.")
+
+if __name__ == "__main__":
+    main()

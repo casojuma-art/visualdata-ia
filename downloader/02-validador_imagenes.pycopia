@@ -1,0 +1,118 @@
+import sqlite3
+import requests
+import os
+import csv
+import hashlib
+import shutil
+import sys
+
+# --- CONFIGURACIÓN DE RUTAS (MAPEO 1:1) ---
+INPUT_DIR = "/lab/visualdata-ia/data_in/simplified"
+DONE_DIR = "/lab/visualdata-ia/data_in/03indatabase"
+DB_PATH = "/lab/visualdata-ia/db/registry.db"
+IMG_BASE_DIR = "/lab/visualdata-ia/imagenes_in"
+API_URL = "http://visual_validator_api:8000/verify"
+HEALTH_URL = "http://visual_validator_api:8000/health"
+API_KEY = "seestocks_secret_key_wwRT"
+
+def get_url_hash(url):
+    """Genera el hash SHA-256 de la URL para localizar el archivo."""
+    return hashlib.sha256(url.encode()).hexdigest()
+
+def check_api():
+    """Verifica que el motor de IA esté encendido."""
+    try:
+        r = requests.get(HEALTH_URL, timeout=5)
+        return r.status_code == 200
+    except:
+        return False
+
+def procesar():
+    if not check_api():
+        print("🛑 ERROR: El contenedor 'visual_validator_api' no responde.")
+        print("Asegúrate de que esté UP y en la misma red que este contenedor.")
+        sys.exit(1)
+
+    os.makedirs(DONE_DIR, exist_ok=True)
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+
+    # Listar archivos CSV pendientes
+    files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.csv')]
+    if not files:
+        print("📭 No hay archivos CSV en 'simplified'.")
+        return
+
+    for filename in files:
+        file_path = os.path.join(INPUT_DIR, filename)
+        print(f"\n🚀 Procesando archivo: {filename}")
+        
+        stats = {"total": 0, "validas": 0, "rechazadas": 0, "errores": 0}
+        contador_commit = 0
+
+        with open(file_path, mode='r', encoding='utf-8') as f:
+            reader = csv.DictReader(f, delimiter=';')
+            for row in reader:
+                # Extraer primera URL de imagen y calcular su hash
+                url = row.get('imagenes_producto', '').split(',')[0].strip()
+                if not url: continue
+
+                url_hash = get_url_hash(url)
+                rel_path = f"{url_hash[:2]}/{url_hash[2:4]}/{url_hash}.jpg"
+                img_path = os.path.join(IMG_BASE_DIR, rel_path)
+
+                if os.path.exists(img_path):
+                    try:
+                        headers = {"X-API-Key": API_KEY}
+                        # Pasamos contexto real a la IA para mayor precisión
+                        data = {
+                            "title": row.get('titulo', 'producto'),
+                            "category": row.get('categoria', 'general')
+                        }
+                        
+                        with open(img_path, "rb") as img_f:
+                            r = requests.post(API_URL, headers=headers, data=data, 
+                                            files={"file": img_f}, timeout=15)
+                        
+                        if r.status_code == 200:
+                            res = r.json()
+                            det = res['detections']
+                            v = 1 if res['is_valid'] else 0
+                            
+                            cursor.execute("""
+                                UPDATE downloads SET 
+                                    is_valid = ?, confidence = ?, score_category = ?, 
+                                    score_product = ?, score_watermark = ?, 
+                                    score_placeholder = ?, score_quality = ?
+                                WHERE url_hash = ?
+                            """, (v, res['confidence'], det['category_match'], det['product_match'],
+                                  det['watermark_text'], det['placeholder_or_error'], 
+                                  det['low_quality'], url_hash))
+                            
+                            stats["total"] += 1
+                            if v: stats["validas"] += 1 
+                            else: stats["rechazadas"] += 1
+                            
+                            # Lógica de Auto-Save cada 100 imágenes
+                            contador_commit += 1
+                            if contador_commit >= 100:
+                                conn.commit()
+                                contador_commit = 0
+                                print(f"  💾 [Checkpoint] {stats['total']} procesadas... (Auto-save OK)")
+                        else:
+                            stats["errores"] += 1
+                    except Exception as e:
+                        stats["errores"] += 1
+                        print(f"  ⚠️ Error en {url_hash[:8]}: {e}")
+
+        # Guardar resto de cambios y mover archivo
+        conn.commit()
+        shutil.move(file_path, os.path.join(DONE_DIR, filename))
+        print(f"✅ Finalizado: {filename}")
+        print(f"📊 RESULTADOS: OK: {stats['validas']} | KO: {stats['rechazadas']} | Errores: {stats['errores']}")
+
+    conn.close()
+    print("\n🏁 Todas las tareas de validación completadas.")
+
+if __name__ == "__main__":
+    procesar()

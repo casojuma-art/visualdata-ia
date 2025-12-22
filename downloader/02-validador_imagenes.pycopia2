@@ -1,0 +1,148 @@
+import sqlite3
+import requests
+import os
+import csv
+import hashlib
+import shutil
+import sys
+import threading
+import io
+from PIL import Image
+from concurrent.futures import ThreadPoolExecutor
+
+# --- CONFIGURACIÓN DE RUTAS ---
+INPUT_DIR = "/lab/visualdata-ia/data_in/simplified"
+DONE_DIR = "/lab/visualdata-ia/data_in/03indatabase"
+DB_PATH = "/lab/visualdata-ia/db/registry.db"
+IMG_BASE_DIR = "/lab/visualdata-ia/imagenes_in"
+API_URL = "http://visual_validator_api:8000/verify"
+HEALTH_URL = "http://visual_validator_api:8000/health"
+API_KEY = "seestocks_secret_key_wwRT"
+
+# --- CONFIGURACIÓN DE RENDIMIENTO ---
+# Usamos 4 hilos para coincidir con los 4 workers de la API
+MAX_WORKERS = 4 
+
+# Bloqueo para operaciones de escritura en SQLite (Thread-safety)
+db_lock = threading.Lock()
+
+# Sesión de requests para reutilizar conexiones TCP (Keep-Alive)
+session = requests.Session()
+session.headers.update({"X-API-Key": API_KEY})
+
+def get_url_hash(url):
+    """Genera el hash SHA-256 de la URL para localizar el archivo."""
+    return hashlib.sha256(url.encode()).hexdigest()
+
+def check_api():
+    """Verifica que el motor de IA esté encendido."""
+    try:
+        r = session.get(HEALTH_URL, timeout=5)
+        return r.status_code == 200
+    except:
+        return False
+
+def validar_imagen(row, conn, stats):
+    """Procesa una sola fila: redimensiona, consulta API y actualiza DB."""
+    url = row.get('imagenes_producto', '').split(',')[0].strip()
+    if not url: return
+
+    url_hash = get_url_hash(url)
+    rel_path = f"{url_hash[:2]}/{url_hash[2:4]}/{url_hash}.jpg"
+    img_path = os.path.join(IMG_BASE_DIR, rel_path)
+
+    if os.path.exists(img_path):
+        try:
+            # --- OPTIMIZACIÓN 1: PRE-RESIZE ---
+            # Redimensionamos a 224x224 (lo que usa CLIP) antes de enviar
+            with Image.open(img_path) as img:
+                img = img.convert("RGB")
+                img = img.resize((224, 224), Image.Resampling.LANCZOS)
+                
+                # Guardamos en buffer de memoria para evitar escritura en disco
+                img_byte_arr = io.BytesIO()
+                img.save(img_byte_arr, format='JPEG', quality=85)
+                img_bytes = img_byte_arr.getvalue()
+
+            data = {
+                "title": row.get('titulo', 'producto'),
+                "category": row.get('categoria', 'general')
+            }
+            
+            # --- OPTIMIZACIÓN 2: PETICIÓN HTTP ---
+            r = session.post(API_URL, data=data, 
+                             files={"file": ("img.jpg", img_bytes, "image/jpeg")}, 
+                             timeout=20)
+            
+            if r.status_code == 200:
+                res = r.json()
+                det = res['detections']
+                v = 1 if res['is_valid'] else 0
+                
+                # --- ESCRITURA SEGURA EN DB ---
+                with db_lock:
+                    cursor = conn.cursor()
+                    cursor.execute("""
+                        UPDATE downloads SET 
+                            is_valid = ?, confidence = ?, score_category = ?, 
+                            score_product = ?, score_watermark = ?, 
+                            score_placeholder = ?, score_quality = ?
+                        WHERE url_hash = ?
+                    """, (v, res['confidence'], det['category_match'], det['product_match'],
+                          det['watermark_text'], det['placeholder_or_error'], 
+                          det['low_quality'], url_hash))
+                    
+                    stats["total"] += 1
+                    if v: stats["validas"] += 1 
+                    else: stats["rechazadas"] += 1
+                    
+                    # Auto-save cada 100 imágenes procesadas
+                    if stats["total"] % 100 == 0:
+                        conn.commit()
+                        print(f"  💾 [Checkpoint] {stats['total']} procesadas... (Auto-save OK)")
+            else:
+                with db_lock: stats["errores"] += 1
+        except Exception as e:
+            with db_lock:
+                stats["errores"] += 1
+                print(f"  ⚠️ Error en {url_hash[:8]}: {e}")
+
+def procesar():
+    if not check_api():
+        print("🛑 ERROR: La API no responde. Revisa el contenedor 'visual_validator_api'.")
+        sys.exit(1)
+
+    os.makedirs(DONE_DIR, exist_ok=True)
+    
+    # Abrimos conexión con check_same_thread=False para el pool de hilos
+    conn = sqlite3.connect(DB_PATH, check_same_thread=False)
+    
+    files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.csv')]
+    if not files:
+        print("📭 No hay archivos CSV pendientes.")
+        return
+
+    for filename in files:
+        file_path = os.path.join(INPUT_DIR, filename)
+        print(f"\n🚀 Procesando en paralelo (4 hilos): {filename}")
+        
+        stats = {"total": 0, "validas": 0, "rechazadas": 0, "errores": 0}
+
+        with open(file_path, mode='r', encoding='utf-8') as f:
+            reader = list(csv.DictReader(f, delimiter=';'))
+            
+            # --- OPTIMIZACIÓN 3: MULTIPROCESAMIENTO (THREADS) ---
+            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+                for row in reader:
+                    executor.submit(validar_imagen, row, conn, stats)
+
+        conn.commit()
+        shutil.move(file_path, os.path.join(DONE_DIR, filename))
+        print(f"✅ Finalizado: {filename}")
+        print(f"📊 RESULTADOS: OK: {stats['validas']} | KO: {stats['rechazadas']} | Errores: {stats['errores']}")
+
+    conn.close()
+    print("\n🏁 Todas las tareas completadas.")
+
+if __name__ == "__main__":
+    procesar()

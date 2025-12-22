@@ -1,0 +1,19 @@
+services:
+  downloader:
+    build:
+      context: ./downloader
+    container_name: vi-downloader
+    # Conectamos a la red externa
+    networks:
+      - red_compartida
+    volumes:
+      - /lab/visualdata-ia:/lab/visualdata-ia
+      - ./downloader:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: tail -f /dev/null
+
+networks:
+  red_compartida:
+    name: tracking_api_project_default
+    external: true
