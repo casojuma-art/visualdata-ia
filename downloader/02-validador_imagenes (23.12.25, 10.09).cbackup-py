@@ -28,34 +28,28 @@ def get_url_hash(url):
     return hashlib.sha256(url.encode()).hexdigest()
 
 def count_lines(file_path):
-    try:
-        with open(file_path, 'rb') as f:
-            return sum(1 for _ in f) - 1
-    except: return 0
+    with open(file_path, 'rb') as f:
+        return sum(1 for _ in f) - 1
 
 def validar_imagen(row, conn, stats, total_rows):
     url = row.get('imagenes_producto', '').split(',')[0].strip()
     if not url: return
+
     url_hash = get_url_hash(url)
 
-    # Datos extraídos del CSV
+    # Capturamos toda la info para el Supercaption
     titulo = row.get('titulo', '')
     descripcion = row.get('descripcion', '')
     cuerpo_Es = row.get('cuerpo_Es', '')
     atributos = row.get('atributos', '')
     categoria = row.get('categoria', '')
 
-    # --- PASO 3: AJUSTE FINO AUTO-RESUME ---
-    # Solo saltamos si la fila está TOTALMENTE COMPLETA (IA + Textos + Sugerencia Google)
+    # AUTO-RESUME INTELIGENTE
+    # Si ya tiene 'is_valid' Y además ya tiene 'titulo', saltamos.
+    # Si tiene 'is_valid' pero NO tiene 'titulo', lo procesamos para rellenar los datos.
     with db_lock:
         cursor = conn.cursor()
-        cursor.execute("""
-            SELECT is_valid FROM downloads 
-            WHERE url_hash = ? 
-              AND is_valid IS NOT NULL 
-              AND titulo IS NOT NULL 
-              AND image_suggest_category IS NOT NULL
-        """, (url_hash,))
+        cursor.execute("SELECT is_valid FROM downloads WHERE url_hash = ? AND is_valid IS NOT NULL AND titulo IS NOT NULL", (url_hash,))
         if cursor.fetchone():
             stats["total"] += 1
             stats["saltadas"] += 1
@@ -64,26 +58,27 @@ def validar_imagen(row, conn, stats, total_rows):
     rel_path = f"{url_hash[:2]}/{url_hash[2:4]}/{url_hash}.jpg"
     img_path = os.path.join(IMG_BASE_DIR, rel_path)
 
-    # Si no hay imagen, al menos guardamos los textos (Enriquecimiento parcial)
+    # Si no existe la imagen física, al menos guardamos los textos del CSV
     if not os.path.exists(img_path):
         with db_lock:
             cursor = conn.cursor()
             cursor.execute("""
                 UPDATE downloads SET 
-                    titulo=?, descripcion=?, cuerpo_Es=?, atributos=?, categoria=?
-                WHERE url_hash=? """, (titulo, descripcion, cuerpo_Es, atributos, categoria, url_hash))
+                    titulo = ?, descripcion = ?, cuerpo_Es = ?, atributos = ?, categoria = ?
+                WHERE url_hash = ?
+            """, (titulo, descripcion, cuerpo_Es, atributos, categoria, url_hash))
             stats["total"] += 1
         return
 
     try:
-        # Optimización de imagen (Pre-resize)
+        # PRE-RESIZE
         with Image.open(img_path) as img:
             img = img.convert("RGB").resize((224, 224), Image.Resampling.LANCZOS)
             img_byte_arr = io.BytesIO()
             img.save(img_byte_arr, format='JPEG', quality=85)
             img_bytes = img_byte_arr.getvalue()
 
-        # Llamada a la API de validación
+        # Validación IA
         r = session.post(API_URL, data={"title": titulo, "category": categoria}, 
                          files={"file": ("img.jpg", img_bytes, "image/jpeg")}, timeout=20)
         
@@ -91,32 +86,30 @@ def validar_imagen(row, conn, stats, total_rows):
             res = r.json()
             det = res['detections']
             v = 1 if res['is_valid'] else 0
-            suggested_cat = res.get('image_suggest_category', '') 
-
+            
             with db_lock:
                 cursor = conn.cursor()
-                # Actualización masiva de todas las columnas
+                # Guardamos TODO: Datos de IA + Datos de Supercaption
                 cursor.execute("""
                     UPDATE downloads SET 
                         is_valid = ?, confidence = ?, score_category = ?, 
                         score_product = ?, score_watermark = ?, 
                         score_placeholder = ?, score_quality = ?,
                         titulo = ?, descripcion = ?, cuerpo_Es = ?, 
-                        atributos = ?, categoria = ?, image_suggest_category = ?
+                        atributos = ?, categoria = ?
                     WHERE url_hash = ?
                 """, (v, res['confidence'], det['category_match'], det['product_match'],
                       det['watermark_text'], det['placeholder_or_error'], det['low_quality'],
-                      titulo, descripcion, cuerpo_Es, atributos, categoria, suggested_cat, url_hash))
+                      titulo, descripcion, cuerpo_Es, atributos, categoria, url_hash))
                 
                 stats["total"] += 1
                 if v: stats["validas"] += 1 
                 else: stats["rechazadas"] += 1
                 
-                # Checkpoint cada 100 imágenes
                 if stats["total"] % 100 == 0:
                     conn.commit()
-                    p = (stats["total"] / total_rows) * 100 if total_rows > 0 else 0
-                    print(f"  💾 [{p:.1f}%] {stats['total']:,} / {total_rows:,} (IA + Supercaption + GoogleCat OK)")
+                    porcentaje = (stats["total"] / total_rows) * 100
+                    print(f"  💾 [{porcentaje:.1f}%] {stats['total']:,} / {total_rows:,} (IA + Supercaption OK)")
         else:
             with db_lock: stats["errores"] += 1
     except Exception as e:
@@ -125,26 +118,21 @@ def validar_imagen(row, conn, stats, total_rows):
             print(f"  ⚠️ Error en {url_hash[:8]}: {e}")
 
 def procesar():
-    # Verificar salud de la API
     try:
         r = session.get(HEALTH_URL, timeout=5)
         if r.status_code != 200: raise Exception()
     except:
-        print("🛑 ERROR: La API de validación está caída."); sys.exit(1)
+        print("🛑 API OFF"); sys.exit(1)
 
     os.makedirs(DONE_DIR, exist_ok=True)
     conn = sqlite3.connect(DB_PATH, check_same_thread=False)
     
-    # Buscar archivos CSV
     files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.csv')]
-    if not files:
-        print("📭 No hay archivos CSV en la carpeta simplified. ¿Olvidaste moverlos de vuelta?")
-        return
-
     for filename in files:
         file_path = os.path.join(INPUT_DIR, filename)
+        print(f"📊 Contando registros en {filename}...")
         total_rows = count_lines(file_path)
-        print(f"\n🚀 Procesando: {filename} ({total_rows:,} registros)")
+        print(f"🚀 Iniciando: {total_rows:,} productos.")
         
         stats = {"total": 0, "validas": 0, "rechazadas": 0, "errores": 0, "saltadas": 0}
 
@@ -155,13 +143,10 @@ def procesar():
                     executor.submit(validar_imagen, row, conn, stats, total_rows)
 
         conn.commit()
-        # Mover archivo a procesados
         shutil.move(file_path, os.path.join(DONE_DIR, filename))
-        print(f"✅ Finalizado: {filename}")
-        print(f"📊 Resumen: {stats['validas']} OK | {stats['rechazadas']} KO | {stats['saltadas']} Saltadas\n")
+        print(f"✅ Finalizado: {filename}\n")
 
     conn.close()
-    print("🏁 Fin del proceso de enriquecimiento.")
 
 if __name__ == "__main__":
     procesar()
