@@ -1,0 +1,105 @@
+import sqlite3
+import asyncio
+import aiohttp
+import pandas as pd
+import re
+import difflib
+import json
+import os
+from tqdm.asyncio import tqdm
+
+# =================================================================
+# CONFIGURACIÓN (Node 211 - RTX 5090)
+# =================================================================
+CONCURRENCY_LIMIT = 100 
+API_URL = "http://172.17.0.1:8000/v1/chat/completions"
+MODEL_NAME = "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
+DB_PATH = "/lab/visualdata-ia/db/registry.db"
+TAXONOMY_PATH = "/lab/visualdata-ia/metadata/gpc_id_to_path.csv"
+
+def normalize_path(path_str):
+    if not path_str: return ""
+    return re.sub(r'\s+', ' ', str(path_str)).replace(' > ', '>').replace('> ', '>').strip().lower()
+
+tax_df = pd.read_csv(TAXONOMY_PATH)
+VALID_PATHS_MAP = {normalize_path(p): p for p in tax_df['path'].unique()}
+VALID_PATHS_LIST = list(VALID_PATHS_MAP.keys())
+
+# =================================================================
+# MOTOR DE ARBITRAJE - CERO TOLERANCIA
+# =================================================================
+async def master_process(session, semaphore, row):
+    u_hash, tit, desc, attrs_orig, cat_bert, cat_clip, conf_clip, s_cat, s_prod, s_qual = row
+    
+    # FORZAMOS VÍA PROFUNDA en casi todos los casos de esta fase para asegurar calidad
+    is_easy = (cat_bert == cat_clip) and (s_cat > 0.95) and (conf_clip < 0.90)
+    
+    async with semaphore:
+        if is_easy:
+            system_msg = "Eres un autómata. Responde solo CATEGORIA_FINAL:, JSON_ATRIBUTOS: y TEXTO_LIMPIO:."
+            user_msg = f"PRODUCTO: {tit}\nCAT: {cat_bert}"
+        else:
+            # PROMPT DE "GUÍA DE IDENTIDAD TÉCNICA"
+            system_msg = (
+                "Eres un experto en suministros industriales y deportivos. Tu misión es corregir a CLIP.\n"
+                "DICCIONARIO DE MARCAS (Soberanía Total):\n"
+                "- RS / Rs / RockShox / SRAM / SRM / Zipp / Trek -> SIEMPRE Ciclismo o Deporte.\n"
+                "- Hebo -> SIEMPRE Ropa de protección, Trial o Enduro.\n"
+                "- Taza / Mug / Vaso -> SIEMPRE Cocina. Ignora 'Limpieza de inodoros'.\n"
+                "- Tornillo / Tuerca / Arandela -> SIEMPRE Bricolaje. Ignora 'Instrumentos musicales'.\n"
+                "- Papel / Folios / A4 -> SIEMPRE Oficina. Ignora 'Sexo/Erotismo'.\n"
+                "REGLA DE ORO: Si CLIP sugiere algo absurdo basado en parecido visual, IGNÓRALO.\n"
+                "FORMATO: NO uses asteriscos (**). NO expliques. Solo etiquetas y contenido."
+            )
+            user_msg = (
+                f"TÍTULO: {tit}\n"
+                f"BERT sugiere: {cat_bert}\n"
+                f"CLIP sugiere: {cat_clip} (Confianza: {conf_clip:.4f})\n"
+                f"DESC: {str(desc)[:600]}\n"
+                "INSTRUCCIÓN: Genera la ficha técnica corregida."
+            )
+
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": user_msg}
+            ],
+            "temperature": 0.0,
+            "max_tokens": 500
+        }
+        
+        try:
+            async with session.post(API_URL, json=payload, timeout=40) as r:
+                if r.status == 200:
+                    res = await r.json()
+                    raw = res['choices'][0]['message']['content']
+                    
+                    # --- LIMPIEZA QUIRÚRGICA POR CÓDIGO ---
+                    # Eliminamos asteriscos y razonamientos que la IA pone por 'costumbre'
+                    raw = raw.replace('**', '').replace('###', '').replace('`', '')
+                    raw = raw.split("Razonamiento:")[0].split("Razones:")[0].split("Razon:")[0].split("Nota:")[0].strip()
+                    
+                    parts = raw.split("CATEGORIA_FINAL:")
+                    if len(parts) < 2: return u_hash, None, None, None
+                    
+                    c_f = parts[1].split("JSON_ATRIBUTOS:")[0].strip()
+                    a_f = raw.split("JSON_ATRIBUTOS:")[1].split("TEXTO_LIMPIO:")[0].strip()
+                    t_f = raw.split("TEXTO_LIMPIO:")[1].strip()
+                    
+                    # Aseguramos que el JSON no contenga explicaciones
+                    if not a_f.startswith('{'): a_f = "{}"
+                    
+                    norm_c_f = normalize_path(c_f)
+                    if norm_c_f in VALID_PATHS_LIST:
+                        return u_hash, VALID_PATHS_MAP[norm_c_f], a_f, t_f
+                    
+                    matches = difflib.get_close_matches(norm_c_f, VALID_PATHS_LIST, n=1, cutoff=0.85)
+                    if matches:
+                        return u_hash, VALID_PATHS_MAP[matches[0]], a_f, t_f
+                    
+                    return u_hash, cat_bert, a_f, t_f
+        except: pass
+    return u_hash, None, None, None
+
+# ... (El resto de run_master permanece igual) ...

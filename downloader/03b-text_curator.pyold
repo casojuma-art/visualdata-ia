@@ -1,0 +1,86 @@
+import sqlite3
+import asyncio
+import aiohttp
+import sys
+from tqdm.asyncio import tqdm
+
+# CONFIGURACIÓN (Node 211 - RTX 5090)
+OVERWRITE = False 
+CONCURRENCY_LIMIT = 100 # Nivel estable para evitar errores de red en Docker
+API_URL = "http://172.17.0.1:8000/v1/chat/completions"
+MODEL_NAME = "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
+DB_PATH = "/lab/visualdata-ia/db/registry.db"
+
+async def process_row(session, semaphore, row):
+    u_hash, titulo, texto_original = row
+    async with semaphore:
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [
+                {
+                    "role": "system", 
+                    "content": "Eres un editor experto en eCommerce neutral. Genera descripciones de marca blanca. REGLA: Responde solo con el texto limpio, sin introducciones ni comentarios."
+                },
+                {"role": "user", "content": f"TÍTULO: {titulo}\nTEXTO: {texto_original}"}
+            ],
+            "max_tokens": 800,
+            "temperature": 0.2
+        }
+        try:
+            async with session.post(API_URL, json=payload, timeout=90) as r:
+                if r.status == 200:
+                    data = await r.json()
+                    content = data['choices'][0]['message']['content'].strip()
+                    # Filtro de seguridad para evitar "charla" de la IA
+                    if any(x in content for x in ["Aquí tienes", "He eliminado", "Lo siento"]):
+                        return u_hash, None
+                    return u_hash, content
+                else:
+                    return "ERR_API", r.status
+        except Exception as e:
+            return "ERR_NET", str(e)
+    return u_hash, None
+
+async def run_curator():
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    
+    query = "SELECT url_hash, titulo, cuerpo_Es FROM downloads WHERE is_valid = 1 AND cuerpo_Es IS NOT NULL"
+    if not OVERWRITE:
+        query += " AND cuerpo_limpio IS NULL"
+    
+    cursor.execute(query)
+    filas = cursor.fetchall()
+    
+    if not filas:
+        print("✅ No hay registros pendientes.")
+        return
+
+    print(f"🚀 [03b] Iniciando Editor en la RTX 5090 ({len(filas):,} registros)...")
+    semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
+    async with aiohttp.ClientSession() as session:
+        tasks = [process_row(session, semaphore, row) for row in filas]
+        results = []
+        for f in tqdm(asyncio.as_completed(tasks), total=len(tasks), unit="item"):
+            u_hash, limpio = await f
+            
+            if u_hash in ["ERR_API", "ERR_NET"]:
+                tqdm.write(f"⚠️ Error detectado: {limpio}. Reduciendo velocidad...")
+                continue
+
+            if limpio:
+                results.append((limpio, u_hash))
+            
+            if len(results) >= 500:
+                cursor.executemany("UPDATE downloads SET cuerpo_limpio = ? WHERE url_hash = ?", results)
+                conn.commit()
+                results = []
+        
+        if results:
+            cursor.executemany("UPDATE downloads SET cuerpo_limpio = ? WHERE url_hash = ?", results)
+            conn.commit()
+
+    conn.close()
+
+if __name__ == "__main__":
+    asyncio.run(run_curator())

@@ -15,11 +15,13 @@ INPUT_DIR = "/lab/visualdata-ia/data_in/simplified"
 DONE_DIR = "/lab/visualdata-ia/data_in/03indatabase"
 DB_PATH = "/lab/visualdata-ia/db/registry.db"
 IMG_BASE_DIR = "/lab/visualdata-ia/imagenes_in"
-API_URL = "http://visual_validator_api:8000/verify"
-HEALTH_URL = "http://visual_validator_api:8000/health"
+#API_URL = "http://visual_validator_api:8000/verify"
+#HEALTH_URL = "http://visual_validator_api:8000/health"
+API_URL = "http://192.168.1.211:8005/verify"
+HEALTH_URL = "http://192.168.1.211:8005/health"
 API_KEY = "seestocks_secret_key_wwRT"
 
-MAX_WORKERS = 4 
+MAX_WORKERS =32
 db_lock = threading.Lock()
 session = requests.Session()
 session.headers.update({"X-API-Key": API_KEY})
@@ -46,7 +48,9 @@ def validar_imagen(row, conn, stats, total_rows):
     categoria = row.get('categoria', '')
 
     # --- PASO 3: AJUSTE FINO AUTO-RESUME ---
-    # Solo saltamos si la fila está TOTALMENTE COMPLETA (IA + Textos + Sugerencia Google)
+    # Saltamos si ya está validada Y tiene los textos.
+    # Nota: image_suggest_category ahora puede estar vacío si la confianza fue baja, 
+    # pero eso cuenta como procesado.
     with db_lock:
         cursor = conn.cursor()
         cursor.execute("""
@@ -54,7 +58,6 @@ def validar_imagen(row, conn, stats, total_rows):
             WHERE url_hash = ? 
               AND is_valid IS NOT NULL 
               AND titulo IS NOT NULL 
-              AND image_suggest_category IS NOT NULL
         """, (url_hash,))
         if cursor.fetchone():
             stats["total"] += 1
@@ -78,7 +81,8 @@ def validar_imagen(row, conn, stats, total_rows):
     try:
         # Optimización de imagen (Pre-resize)
         with Image.open(img_path) as img:
-            img = img.convert("RGB").resize((224, 224), Image.Resampling.LANCZOS)
+            img = img.convert("RGB").resize((224, 224), Image.Resampling.BILINEAR) 
+            #img = img.convert("RGB").resize((224, 224), Image.Resampling.LANCZOS)
             img_byte_arr = io.BytesIO()
             img.save(img_byte_arr, format='JPEG', quality=85)
             img_bytes = img_byte_arr.getvalue()
@@ -91,22 +95,33 @@ def validar_imagen(row, conn, stats, total_rows):
             res = r.json()
             det = res['detections']
             v = 1 if res['is_valid'] else 0
-            suggested_cat = res.get('image_suggest_category', '') 
+            
+            # --- CAMBIO V2: MANEJO DE CONFIANZA ---
+            # Si la API devuelve null (baja confianza), guardamos cadena vacía.
+            suggested_cat = res.get('image_suggest_category') 
+            cat_to_save = suggested_cat if suggested_cat else ""
+            
+            # (Opcional) Debugging visual en logs si hay baja confianza
+            # if not suggested_cat:
+            #     print(f"  [DEBUG] Low Conf: {res.get('image_suggest_confidence', 0):.3f} para {url_hash[:8]}")
 
             with db_lock:
                 cursor = conn.cursor()
-                # Actualización masiva de todas las columnas
+                # Actualización masiva
                 cursor.execute("""
                     UPDATE downloads SET 
                         is_valid = ?, confidence = ?, score_category = ?, 
                         score_product = ?, score_watermark = ?, 
                         score_placeholder = ?, score_quality = ?,
                         titulo = ?, descripcion = ?, cuerpo_Es = ?, 
-                        atributos = ?, categoria = ?, image_suggest_category = ?
+                        atributos = ?, categoria = ?, 
+                        image_suggest_category = ?
                     WHERE url_hash = ?
                 """, (v, res['confidence'], det['category_match'], det['product_match'],
                       det['watermark_text'], det['placeholder_or_error'], det['low_quality'],
-                      titulo, descripcion, cuerpo_Es, atributos, categoria, suggested_cat, url_hash))
+                      titulo, descripcion, cuerpo_Es, atributos, categoria, 
+                      cat_to_save, # <--- Guardamos "" si la IA duda
+                      url_hash))
                 
                 stats["total"] += 1
                 if v: stats["validas"] += 1 
@@ -116,7 +131,7 @@ def validar_imagen(row, conn, stats, total_rows):
                 if stats["total"] % 100 == 0:
                     conn.commit()
                     p = (stats["total"] / total_rows) * 100 if total_rows > 0 else 0
-                    print(f"  💾 [{p:.1f}%] {stats['total']:,} / {total_rows:,} (IA + Supercaption + GoogleCat OK)")
+                    print(f"  💾 [{p:.1f}%] {stats['total']:,} / {total_rows:,} (Procesadas V2)")
         else:
             with db_lock: stats["errores"] += 1
     except Exception as e:
@@ -129,6 +144,7 @@ def procesar():
     try:
         r = session.get(HEALTH_URL, timeout=5)
         if r.status_code != 200: raise Exception()
+        print(f"✅ API Online: {r.json().get('engine', 'Desconocido')}")
     except:
         print("🛑 ERROR: La API de validación está caída."); sys.exit(1)
 

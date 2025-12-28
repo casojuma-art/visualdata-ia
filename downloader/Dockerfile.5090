@@ -1,0 +1,50 @@
+# Base Nightly (Drivers Blackwell RTX 5090)
+FROM ghcr.io/pytorch/pytorch-nightly:latest
+
+# Herramientas de sistema
+RUN apt-get update && apt-get install -y git gcc g++ python3-dev cmake
+
+# 1. Preparar entorno Python
+RUN pip install --upgrade pip
+RUN pip install setuptools-scm wheel packaging
+
+# 2. Descargar código fuente
+WORKDIR /workspace
+RUN git clone https://github.com/vllm-project/vllm.git
+WORKDIR /workspace/vllm
+
+# --- CIRUGÍA DE CÓDIGO (LOBOTOMÍA COMPLETA) ---
+
+# A. Limpieza de archivos de configuración (Lo de antes)
+RUN sed -i '/^license =/d' pyproject.toml
+RUN sed -i '/license-files/d' pyproject.toml
+RUN sed -i '/"torch/d' pyproject.toml
+RUN sed -i '/torch/d' requirements-common.txt 2>/dev/null || true
+
+# B. HACK 1: Ignorar "Unknown runtime environment"
+RUN sed -i 's/raise RuntimeError("Unknown runtime environment")/return "0.7.0+cu124"/g' setup.py
+
+# C. HACK 2: Ignorar "Unsupported platform"
+RUN sed -i 's/raise ValueError("Unsupported platform, please use CUDA, ROCm, or CPU.")/return []/g' setup.py
+
+# D. HACK 3: ARREGLAR ERROR 'infer_schema' (NUEVO)
+# PyTorch Nightly eliminó 'infer_schema'. Lo quitamos del import y creamos una función dummy.
+# Buscamos la línea que falla y la reemplazamos por una lambda vacía para que no rompa.
+RUN sed -i 's/from torch.library import Library, infer_schema/from torch.library import Library; infer_schema = lambda *a, **k: None/g' vllm/utils/torch_utils.py
+
+# 3. Instalamos dependencias CRÍTICAS manualmente
+RUN pip install transformers "numpy<2" sentencepiece "pydantic>=2.0" fastapi uvicorn "nvidia-ml-py"
+
+# 4. Variables de entorno para forzar compilación GPU
+ENV VLLM_TARGET_DEVICE="cuda"
+ENV MAX_JOBS=12
+ENV NVCC_THREADS=12
+
+# 5. Instalación
+# --no-deps: No instales dependencias (ya las pusimos manuales)
+# --no-build-isolation: Usa nuestras herramientas parcheadas
+RUN pip install . --no-build-isolation --no-deps
+
+# 6. Arranque
+WORKDIR /
+ENTRYPOINT ["python3", "-m", "vllm.entrypoints.openai.api_server"]

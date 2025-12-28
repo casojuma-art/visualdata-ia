@@ -1,0 +1,2239 @@
+Cargando taxonomía...
+Taxonomía cargada: 5595 rutas.
+🚀 Modo DEBUG (solo prueba, sin grabar)
+Procesando batch de 64 productos...
+
+================================================================================
+
+================================================================================
+HASH: eb9178fc2a4cde08e380d9c6805b6ec56efc223b8db36db6a2db97d74018b9ca
+HASH: 4000b59bb0df9656b3e8e3f94b0b9135b9aa6514dfbaa775273206bfff2161c6
+TÍTULO: Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9720G35 Alianza Cańa Lisa
+TÍTULO: Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9710G35 Alianza Media Cańa
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9720G35 Alianza Cańa Lisa. Alianza fabricada en Oro Blanco de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Cańa Lisa. Medidas 3,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720G35
+
+================================================================================
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro Blanco de 9kts 375/000 (9K)"}
+
+================================================================================BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9710G35 Alianza Media Cańa. Alianza fabricada en Oro Blanco de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 3,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710G35
+
+================================================================================
+
+================================================================================
+
+================================================================================HASH: 0c6748f4904fd56c1f1544bf82a3174eaf06691baff171f2099efbfa8662d6e8
+
+================================================================================
+
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro Blanco de 9kts 375/000 (9K)"}
+CLIP:  (conf: 99%, val_titulo: 0.994)
+--------------------------------------------------------------------------------
+HASH: 5f23330890e6d33ac5b5bb1691ffe12422eeb0c0fa26ffbfa9e9c0ed73d7a785
+TÍTULO: Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9730G20 Alianza Media Cańa Lisa
+
+================================================================================BERT: Ropa y accesorios  >  Joyería
+HASH: eaeca0de4f408091343a6b2075e880a8e788f28626cd17e406c55e1800b030b0
+HASH: edaffd604710a8f0ece1e577d9c97b685ab1c82faea1f2c364f21853d919adf1
+
+================================================================================
+TÍTULO: Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9730G25 Alianza Media Cańa Lisa
+CLIP:  (conf: 98%, val_titulo: 0.982)
+--------------------------------------------------------------------------------
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9730G20 Alianza Media Cańa Lisa. Alianza fabricada en Oro Blanco de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730G20
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro Blanco de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+
+================================================================================
+HASH: 1263c74867457306d19c6e221e3016866f3d83b33aaca886d74f90399785abc0
+TÍTULO: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820G50 Alianza Media Cańa Pulida
+
+================================================================================
+
+================================================================================
+
+================================================================================
+HASH: db45335dc17c1ac87bea9f6a454cb7ef8438c8915eb2fe27c68ec7da3be893ea
+
+================================================================================
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9730G25 Alianza Media Cańa Lisa. Alianza fabricada en Oro Blanco de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 2,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730G25
+TÍTULO: Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9710G25 Alianza Media Cańa
+HASH: e31746e6ad005fbde11478972b203d0e0dda0976941cd7749a49ded5b61f858e
+TÍTULO: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9730J50 Alianza Media Cańa Lisa
+HASH: 2a4a50185351725512500c7783f12f68872957ee0da06c43de653c702aba948d
+
+HASH: 16af8a8baf320711341ed61e8fb52bc7732594cb37aac5796717afe589a4b73c
+
+HASH: 322b416fc66bf00d6577e71782fb5c4e843f144b651044f09ea1495defa718d4
+TÍTULO: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820G40 Alianza Media Cańa Pulida
+
+================================================================================
+================================================================================
+HASH: 0340848adc074e2867d0c08ad8a3d757d0c6cfadc87ab4a88202e7ae8b082316
+
+================================================================================
+
+================================================================================
+HASH: 958d50b564136d621ad4db45f7d93c7bdec709e9e6a80fe92b50e8be48b3d6b8
+
+================================================================================
+TÍTULO: Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9720G25 Alianza Cańa Lisa
+
+HASH: 5670208d36da3a1cf178b4d15b1d0b0aeb6da23a49763871ab349e35fc2e58d6
+
+================================================================================
+
+================================================================================
+HASH: 89829b0ea3a5db121aa3dfe0781d5da37f80981a03e1ed598894cf7b9664340c
+CLIP:  (conf: 99%, val_titulo: 0.995)
+HASH: 82b862293d4f233c770590f94b9b2cbd88120dbf57b0d5e8d13c89099ddfbc1a
+
+================================================================================
+
+================================================================================
+
+================================================================================
+
+================================================================================
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro Blanco 9kts 375/000"}
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9710G25 Alianza Media Cańa. Alianza fabricada en Oro Blanco de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 2,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710G25
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro Blanco 9kts 375/000"}
+
+================================================================================
+HASH: 59fe76a62cd01280119db9d3c203fc509ba9ed05894adb96e006e40c770206bf
+
+================================================================================
+HASH: 5b321ae19eb81b995a20f20ad6a02305de91f59b4b1b080f8c4c344bc0416a6d
+TÍTULO: Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9730J45 Alianza Media Cańa Lisa
+HASH: cf7a0a9f0d187a7c737a947e6c96e3d66cad0f96a97ec59026a9af9a4118a9fc
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820G40 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 4mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820G40
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+HASH: e85fbaa0c655758b0dc816bc0e42855d2200eb2b1e1c111327571873984200bb
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820G50 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820G50
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+HASH: e475cbbe5f97c53fb93201ef530a15086b24b18e8b0c5ec1cb3e79c5d6d1c03a
+TÍTULO: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9710J30 Alianza Media Cańa
+HASH: 205fec65332f405b293acaab66a867dfcc6be782f3f848c777302c3920ce556b
+TÍTULO: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9720J40 Alianza Media Cańa Lisa
+
+================================================================================
+TÍTULO: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9710J40 Alianza Media Cańa
+HASH: df7167cde377798ea57ba22f5192f663f06077e0b64d388761b63439662498c8
+TÍTULO: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9730J30 Alianza Media Cańa Lisa
+TÍTULO: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820J50 Alianza Media Cańa Pulida
+HASH: 49590cdc714bd0925897c7402871e0d033a88eeb100e54381a0f60e3409d4fdf
+
+================================================================================
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9720G25 Alianza Cańa Lisa. Alianza fabricada en Oro Blanco de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Cańa Lisa. Medidas 2,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720G25
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro Blanco de 9kts 375/000 (9K)"}
+TÍTULO: Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9710J45 Alianza Media Cańa
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 3mm (9)AR9710J30 Alianza Media Cańa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 3mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710J30
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+
+================================================================================TÍTULO: Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9720G20 Alianza Cańa Lisa
+HASH: bc7c2a007d00ef541ab7977fa3e911cd0a02840b83c9d77e834795ee8058dd7e
+HASH: 471d01d401e2b63630a843c9dfda5e9f253f468e72957664358583c89b0a4961
+TÍTULO: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820J40 Alianza Media Cańa Pulida
+TÍTULO: Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9710G20 Alianza Media Cańa
+HASH: 874b996347523d2b32c4bdeeca04efa509cb5f91e8b2651701af21fd4cee9e85
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820J50 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820J50
+TÍTULO: Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9720J35 Alianza Media Cańa Lisa
+HASH: dac187b10bf96d5d898968e0c471b8119f57c9539444f6304589b50add69e3df
+TÍTULO: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9730J40 Alianza Media Cańa Lisa
+
+================================================================================BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9710J45 Alianza Media Cańa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 4,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710J45
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro 9kts 375/000"}
+
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9720G20 Alianza Cańa Lisa. Alianza fabricada en Oro Blanco de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Cańa Lisa. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720G20
+ATRIBUTOS: {"clave": "valor"}
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 4mm (9)AR9710J40 Alianza Media Cańa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 4mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710J40
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820J40 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 4mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820J40
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9710G20 Alianza Media Cańa. Alianza fabricada en Oro Blanco de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710G20
+TÍTULO: Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9720J45 Alianza Media Cańa Lisa
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 3mm (9)AR9730J30 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 3mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730J30
+ATRIBUTOS: {"título": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820J50 Alianza Media Cańa Pulida", "descripcion": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820J50 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820J50...", "attrs": "{}", "ia_inputs": {"bert": "Ropa y accesorios  >  Joyería", "clip": {"confianza": 71, "valididad": 0.7099}}}
+TÍTULO: Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9710J35 Alianza Media Cańa
+HASH: 509c33f7a0c927d81181fe1160e587a13d2166bbe40ac4afc6a6ca13515e34e0
+TÍTULO: Anillo Oro 9kts Argyor-MRM 2mm (9)AR9820J20 Alianza Media Cańa Pulida
+BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 5mm (9)AR9730J50 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730J50
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+BERT: Ropa y accesorios  >  Joyería
+HASH: cef68f0d6fcb27443518d34f5f974079a514e492b9865363a286e84a14ee25cc
+TÍTULO: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9720J50 Alianza Media Cańa Lisa
+BERT: Ropa y accesorios  >  Joyería
+TÍTULO: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9720J30 Alianza Media Cańa Lisa
+TÍTULO: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820J30 Alianza Media Cańa Pulida
+TÍTULO: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9710J50 Alianza Media Cańa
+BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9720J35 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 3,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720J35
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 4mm (9)AR9730J40 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 4mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730J40
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+CLIP:  (conf: 99%, val_titulo: 0.995)
+--------------------------------------------------------------------------------
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 94%, val_titulo: 0.941)
+--------------------------------------------------------------------------------
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 82%, val_titulo: 0.820)
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820J30 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 3mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820J30
+ATRIBUTOS: {"clave": "valor"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 97%, val_titulo: 0.965)
+--------------------------------------------------------------------------------
+
+BERT: Ropa y accesorios  >  Joyería
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 99%, val_titulo: 0.991)
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 4mm (9)AR9720J40 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 4mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720J40
+CLIP:  (conf: 94%, val_titulo: 0.945)
+--------------------------------------------------------------------------------
+BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9730J45 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 4,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730J45
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 5mm (9)AR9710J50 Alianza Media Cańa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710J50
+ATRIBUTOS: {}
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 100%, val_titulo: 0.996)
+HASH: 61228fb36ad3ad7bf4eee1869d30eca8653a75e7982e2c8e842ffd65e0fa89f4
+TÍTULO: Anillo Oro 9kts Argyor-MRM 2mm (9)AR9820G20 Alianza Media Cańa Pulida
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 5mm (9)AR9720J50 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720J50
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+CLIP:  (conf: 96%, val_titulo: 0.960)
+--------------------------------------------------------------------------------
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 97%, val_titulo: 0.971)
+--------------------------------------------------------------------------------
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 2mm (9)AR9820J20 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820J20
+TÍTULO: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820G30 Alianza Media Cańa Pulida
+CLIP:  (conf: 99%, val_titulo: 0.986)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 87%, val_titulo: 0.869)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9720J45 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 4,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720J45
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000"}
+CLIP:  (conf: 71%, val_titulo: 0.710)
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+ATRIBUTOS: {"título": "Anillo Oro 9kts Argyor-MRM 2mm (9)AR9820J20 Alianza Media Cańa Pulida", "descripcion": "Anillo Oro 9kts Argyor-MRM 2mm (9)AR9820J20 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820J20...", "attrs": "{}", "ia_inputs": {"bert": "Ropa y accesorios  >  Joyería", "clip": {"confianza": 56, "valididad": 0.5624}}}
+BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820G30 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 3mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820G30
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+TÍTULO: Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9730J35 Alianza Media Cańa Lisa
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 3mm (9)AR9720J30 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 3mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720J30
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9710J35 Alianza Media Cańa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 3,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710J35
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000"}
+BERT: Ropa y accesorios  >  Joyería
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9730J35 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 3,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730J35
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro 9kts 375/000"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 99%, val_titulo: 0.992)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 100%, val_titulo: 0.995)
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 93%, val_titulo: 0.933)
+--------------------------------------------------------------------------------
+TÍTULO: Anillo Oro 9kts Argyor-MRM 2mm (9)AR9730J20 Alianza Media Cańa Lisa
+CLIP:  (conf: 97%, val_titulo: 0.973)
+--------------------------------------------------------------------------------
+ATRIBUTOS: {"título": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820J30 Alianza Media Cańa Pulida", "descripcion": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820J30 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 3mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820J30...", "attrs": "{}", "ia_inputs": {"bert": "Ropa y accesorios > Joyería", "clip": {"confianza": 93, "valididad": 0.9302}}}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 58%, val_titulo: 0.576)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 2mm (9)AR9820G20 Alianza Media Cańa Pulida. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Pulida. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9820G20
+ATRIBUTOS: {"clave": "valor"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 94%, val_titulo: 0.936)
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 93%, val_titulo: 0.930)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 98%, val_titulo: 0.977)
+--------------------------------------------------------------------------------
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 2mm (9)AR9730J20 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730J20
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+BERT: Ropa y accesorios  >  Joyería
+--------------------------------------------------------------------------------
+BERT: Ropa y accesorios  >  Joyería
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 99%, val_titulo: 0.992)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 88%, val_titulo: 0.882)
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 99%, val_titulo: 0.994)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 99%, val_titulo: 0.992)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+CLIP:  (conf: 95%, val_titulo: 0.947)
+CLIP:  (conf: 56%, val_titulo: 0.562)
+CLIP:  (conf: 98%, val_titulo: 0.984)
+CLIP:  (conf: 93%, val_titulo: 0.926)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+CLIP:  (conf: 99%, val_titulo: 0.994)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo de oro 9kts con diseño de caja pulida y medidas 2mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo de oro con medidas y certificado de autenticidad"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo de oro 9kts con diseño de caja pulida y medidas 2mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo de oro con medidas y certificado de autenticidad"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo de oro con medidas y certificado de autenticidad
+Texto limpio: Anillo de oro 9kts con diseño de caja pulida y medidas 2mm...
+================================================================================
+
+
+================================================================================
+HASH: 6f210fd6660f127e1371425018f59641eb7507216ef21e09d010a544f77934c8
+TÍTULO: Anillo Oro 9kts Argyor-MRM 2mm (9)AR9720J20 Alianza Media Cańa Lisa
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 2mm (9)AR9720J20 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720J20
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro 9kts 375/000"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 92%, val_titulo: 0.917)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2mm Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2mm Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de joyería"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos de joyería
+Texto limpio: Anillo Oro Blanco 9kts Argyor-MRM 2mm Cańa Lisa...
+================================================================================
+
+
+================================================================================
+HASH: 97c82dcde9002d70dc7210313d6b9167f223d01ec377fd14dc56d10be182e957
+TÍTULO: Anillo Oro 9kts Argyor-MRM 2mm (9)AR9710J20 Alianza Media Cańa
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 2mm (9)AR9710J20 Alianza Media Cańa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 2mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710J20
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)", "diseño": "Alianza Media Cańa"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 67%, val_titulo: 0.673)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {"material": "Oro", "talla": "3mm"},
+  "texto_limpio": "Anillo de Oro 9kts con diseño de Alianza Media Cańa Pulida",
+  "confianza_ia": 0.93,
+  "razonamiento": "Coincidencia con la sugerencia de BERT y características de joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {
+    "material": "Oro",
+    "talla": "3mm"
+  },
+  "texto_limpio": "Anillo de Oro 9kts con diseño de Alianza Media Cańa Pulida",
+  "confianza_ia": 0.93,
+  "razonamiento": "Coincidencia con la sugerencia de BERT y características de joyería"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.93
+Razonamiento: Coincidencia con la sugerencia de BERT y características de joyería
+Texto limpio: Anillo de Oro 9kts con diseño de Alianza Media Cańa Pulida...
+================================================================================
+
+
+================================================================================
+HASH: 8832775acba6a6bb484c0ecc57fbd9db6693bfd274250ce7da535551591d827f
+TÍTULO: Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9730J25 Alianza Media Cańa Lisa
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9730J25 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 2,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9730J25
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 100%, val_titulo: 0.998)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9710G20 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9710G20 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño de alianza y características de joyería
+Texto limpio: Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9710G20 Alianza Media Cańa...
+================================================================================
+
+
+================================================================================
+HASH: 7f2a0796d44840d16eb5551c5d164315eae03c5b2418e68b8640fe65f7e6b297
+TÍTULO: Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9720J25 Alianza Media Cańa Lisa
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9720J25 Alianza Media Cańa Lisa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa Lisa. Medidas 2,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9720J25
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 99%, val_titulo: 0.993)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de Joyería > Anillos",
+  "json_atributos": {},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9710J50 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Clasificado en Joyería > Accesorios de Joyería > Anillos según BERT y CLIP"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de Joyería > Anillos",
+  "json_atributos": {},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9710J50 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Clasificado en Joyería > Accesorios de Joyería > Anillos según BERT y CLIP"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Clasificado en Joyería > Accesorios de Joyería > Anillos según BERT y CLIP
+Texto limpio: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9710J50 Alianza Media Cańa...
+================================================================================
+
+
+================================================================================
+HASH: fa705bccf64ffc1a769d336a0dd6125fe48de204240401f2f2992c8410dff533
+TÍTULO: Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9710J25 Alianza Media Cańa
+DESCRIPCIÓN (primeros 300): Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9710J25 Alianza Media Cańa. Alianza fabricada en Oro de 9kts 375/000 (9K). Tallas 07 a 33. Diseńo de Alianza Media Cańa. Medidas 2,5mm. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (9)AR9710J25
+ATRIBUTOS: {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 97%, val_titulo: 0.966)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro 9kts 375/000"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4,5mm con diseño de Alianza Media Cańa",
+  "confianza_ia": 0.98,
+  "razonamiento": "Coincidencia con la descripción de anillo y características de material y tallas"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro 9kts 375/000"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4,5mm con diseño de Alianza Media Cańa",
+  "confianza_ia": 0.98,
+  "razonamiento": "Coincidencia con la descripción de anillo y características de material y tallas"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.98
+Razonamiento: Coincidencia con la descripción de anillo y características de material y tallas
+Texto limpio: Anillo Oro 9kts Argyor-MRM 4,5mm con diseño de Alianza Media Cańa...
+================================================================================
+
+
+================================================================================
+HASH: 9b24e45a9f8f5605563594ef8edcb9cafe522831585243c806bfbd794b732b8d
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 4mm (18)TR43340 Aros Multiples
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 4mm (18)TR43340 Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 4mm. Peso: 7,18g. - 11,00g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TR4
+ATRIBUTOS: {"talla": "07 a 33", "peso": "7,18g - 11,00g"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 95%, val_titulo: 0.946)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9710J35 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9710J35 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño de alianza y material de oro
+Texto limpio: Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9710J35 Alianza Media Cańa...
+================================================================================
+
+
+================================================================================
+HASH: 41293a0591d7a2b02933309684fd089d5232f1d8a863c23cc8175a386555fc50
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 4mm (18)TDJ40B Aros Multiples
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 4mm (18)TDJ40B Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 4mm. Peso: 5,27g. - 8,18g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TDJ40
+ATRIBUTOS: {"clave": "valor"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 80%, val_titulo: 0.801)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9720J30 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9720J30 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño de alianza y material de oro
+Texto limpio: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9720J30 Alianza Media Cańa Lisa...
+================================================================================
+
+
+================================================================================
+HASH: 3fd31bcf046ca98ccbc09edaa929e277ef2ceadfb7d183e3712117f064fea9c8
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 4,5mm (18)T0245 Liso Con Bisel
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 4,5mm (18)T0245 Liso Con Bisel. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Liso Con Bisel. Medidas 4,5mm. Peso: 3,07g. - 4,66g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)T0
+ATRIBUTOS: {"categoria": "Joyería", "confianza": 0.9971}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 100%, val_titulo: 0.997)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9710J30 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9710J30 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos de un anillo
+Texto limpio: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9710J30 Alianza Media Cańa...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9710J40 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de anillo y características de material y tallas"
+}
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9720J45 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9710J40 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de anillo y características de material y tallas"
+}
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9720J45 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+
+================================================================================
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño de alianza y características de joyería
+Razonamiento: Coincidencia con la descripción de anillo y características de material y tallas
+Texto limpio: Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9720J45 Alianza Media Cańa Lisa...
+================================================================================
+Texto limpio: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9710J40 Alianza Media Cańa...
+================================================================================
+
+HASH: 142c83b4db8e81035b42c1c2c5e079b39695a1ecb05d9d21f738b1b4a5bfe17d
+
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 3mm (18)TDJ30B Aros Multiples
+
+================================================================================
+
+================================================================================
+HASH: 25e5c0329ae35836eab20d8f30045be8fab843fba942acba2661776f795da8d2
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 3mm (18)TDJ30B Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 3mm. Peso: 3,39g. - 5,27g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TDJ30
+ATRIBUTOS: {"talla": "07 a 33", "peso": "3,39g - 5,27g"}
+BERT: Ropa y accesorios  >  Joyería
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 3mm (18)T0930 Dibujo
+HASH: 8de87182f5f998d42059f26563d6ea3b437e7d2d48234b4dd385df2b0768cd9a
+CLIP:  (conf: 95%, val_titulo: 0.953)
+--------------------------------------------------------------------------------
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 3mm (18)T0930 Dibujo. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Dibujo. Medidas 3mm. Peso: 2,00g. - 3,04g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)T0930
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 3mm (18)T0730 Liso Con Bisel
+ATRIBUTOS: {"talla": "07 a 33", "peso": "2,00g - 3,04g"}
+BERT: Ropa y accesorios  >  Joyería
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 3mm (18)T0730 Liso Con Bisel. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Liso Con Bisel. Medidas 3mm. Peso: 2,09g. - 3,18g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)T0730
+CLIP:  (conf: 100%, val_titulo: 0.999)
+ATRIBUTOS: {"categoria": "Joyería", "confianza": 0.99}
+--------------------------------------------------------------------------------
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 99%, val_titulo: 0.993)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9730J30 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9730J30 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos de un anillo
+Texto limpio: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9730J30 Alianza Media Cańa Lisa...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9720J40 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9730J40 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9720J50 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+
+================================================================================RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9720J35 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+
+
+JSON PARSEADO CORRECTAMENTE:
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro Blanco 9kts 375/000"},
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9730G25 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+
+
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9720J40 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+HASH: 0d9ddc6d0b98193fae75a4e2804067e84e7e7778ab21640bfb651a0136fd277c
+JSON PARSEADO CORRECTAMENTE:
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 3mm (18)T0230 Liso Con Bisel
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9720J50 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9730J40 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro Blanco 9kts 375/000"
+  },
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9730G25 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y características de joyería"
+}
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 3mm (18)T0230 Liso Con Bisel. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Liso Con Bisel. Medidas 3mm. Peso: 1,82g. - 2,77g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)T0230
+ATRIBUTOS: {"clave": "valor"}
+Confianza IA: 0.95
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9720J35 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+Razonamiento: Coincidencia con la descripción y atributos de un anillo
+BERT: Ropa y accesorios  >  Joyería
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño de alianza y características de joyería
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Texto limpio: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9730J40 Alianza Media Cańa Lisa...
+================================================================================
+Texto limpio: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9720J40 Alianza Media Cańa Lisa...
+================================================================================
+
+Razonamiento: Anillo con diseño de alianza y características de joyería
+Confianza IA: 0.95
+CLIP:  (conf: 100%, val_titulo: 1.000)
+--------------------------------------------------------------------------------
+
+Texto limpio: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9720J50 Alianza Media Cańa Lisa...
+================================================================================
+
+
+================================================================================
+
+================================================================================
+HASH: f99a47b098989558a04896038fb401b38f5b0221581c41846608125d3617c930
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+
+================================================================================Razonamiento: Anillo con diseño de alianza y características de joyería
+Razonamiento: Anillo con diseño de alianza y material de oro
+Texto limpio: Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9720J35 Alianza Media Cańa Lisa...
+HASH: d8b32c014c9ad0bdec239b0a7b9017b3bb51aa9b9b186665a061398b25204e76
+
+================================================================================
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 3,5mm (18)TDJ35B Aros Multiples
+Texto limpio: Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9730G25 Alianza Media Cańa Lisa...
+================================================================================
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 2mm (18)TR40320 Aros Multiples
+
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 3,5mm (18)TDJ35B Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 3,5mm. Peso: 4,48g. - 6,96g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)T
+ATRIBUTOS: {"talla": "07 a 33", "peso": "4,48g - 6,96g"}
+
+
+================================================================================
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 2mm (18)TR40320 Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 2mm. Peso: 3,35g. - 5,20g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TR40
+ATRIBUTOS: {"talla": "07 a 33", "peso": "3,35g - 5,20g"}
+BERT: Ropa y accesorios  >  Joyería
+HASH: a97e6db28e675c38b1337c942b09e043e3a5689f08c620881ea07bc32b3b7c31
+CLIP:  (conf: 84%, val_titulo: 0.837)
+--------------------------------------------------------------------------------
+BERT: Ropa y accesorios  >  Joyería
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 2mm (18)TDJ20B Aros Multiples
+
+================================================================================
+HASH: 314621da63c80158f9b83cd3e07cbef1b91bca44c92a2f3ebee11a51f2d8ae4d
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 2,5mm (18)TR43225 Aros Multiples
+HASH: 17cdf88207110f52dc40858218a915bc95278fe61ad82ad3b9f3d4366d353977
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 2,5mm (18)TDJ25B Aros Multiples
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 2,5mm (18)TR43225 Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 2,5mm. Peso: 4,00g. - 6,22g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 2mm (18)TDJ20B Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 2mm. Peso: 2,52g. - 3,92g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TDJ20
+ATRIBUTOS: {"talla": "07 a 33", "peso": "4,00g - 6,22g"}
+ATRIBUTOS: {"clave": "valor"}
+CLIP:  (conf: 99%, val_titulo: 0.991)
+--------------------------------------------------------------------------------
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 2,5mm (18)TDJ25B Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 2,5mm. Peso: 2,96g. - 4,60g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)T
+BERT: Ropa y accesorios  >  Joyería
+ATRIBUTOS: {"clave": "valor"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 94%, val_titulo: 0.944)
+BERT: Ropa y accesorios  >  Joyería
+--------------------------------------------------------------------------------
+CLIP:  (conf: 98%, val_titulo: 0.979)
+CLIP:  (conf: 98%, val_titulo: 0.979)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9730J50 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de anillo y diseño de alianza"
+}
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro Blanco de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9730G20 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2mm (9)AR9730J20 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de anillo y diseño de alianza"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro Blanco 9kts 375/000"},
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9710G25 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajuste a categoría de anillos"
+}
+
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro Blanco de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9730G20 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9730J50 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de anillo y diseño de alianza"
+}
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2mm (9)AR9730J20 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de anillo y diseño de alianza"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro Blanco 9kts 375/000"
+  },
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9710G25 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajuste a categoría de anillos"
+}
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos de un anillo
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Texto limpio: Anillo Oro Blanco 9kts Argyor-MRM 2mm (9)AR9730G20 Alianza Media Cańa Lisa...
+================================================================================
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción de anillo y diseño de alianza
+Confianza IA: 0.95
+
+Texto limpio: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9730J50 Alianza Media Cańa Lisa...
+================================================================================
+
+Razonamiento: Anillo con material y diseño específicos, ajuste a categoría de anillos
+Texto limpio: Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9710G25 Alianza Media Cańa...
+Razonamiento: Coincidencia con la descripción de anillo y diseño de alianza
+
+================================================================================
+Texto limpio: Anillo Oro 9kts Argyor-MRM 2mm (9)AR9730J20 Alianza Media Cańa Lisa...
+================================================================================
+
+
+================================================================================
+================================================================================
+
+HASH: c3dac8cdc3e6ca578786f553a84228389c4e80b15053ec1dbc548b9941b0c747
+
+================================================================================
+
+================================================================================
+HASH: 361024ca4b54e0f06f9cfbd775a9fde67d25bf2a4ce0a9ecc354b97d6dcc86f6
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 1,5mm (18)TDJ15B Aros Multiples
+HASH: 1cd67fdaa57d81f64efad5e82d44dccc8013532778760a6344cc4c189f031e10
+HASH: da0ef0fbcbc54cc465bda6a236fd2817233a4547b610fa38a998dcb0e2fabe9f
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 6mm (18)R60RB Clásica Plana
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 1,5mm (18)TDJ15B Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 1,5mm. Peso: 1,91g. - 2,97g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)T
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 5mm (18)TR50 Clásica Semibombeada
+TÍTULO: Anillo Oro Tricolor 18kts Argyor-MRM 1,5mm (18)TR40415 Aros Multiples
+ATRIBUTOS: {"clave": "valor"}
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 5mm (18)TR50 Clásica Semibombeada. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Semibombeada. Medidas 5mm. Peso: 4,53g. - 7,03g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TR5
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 6mm (18)R60RB Clásica Plana. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 6mm. Peso: 3,83g. - 5,95g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R60RB
+DESCRIPCIÓN (primeros 300): Anillo Oro Tricolor 18kts Argyor-MRM 1,5mm (18)TR40415 Aros Multiples. Alianza fabricada en Oro tricolor de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Aros Multiples. Medidas 1,5mm. Peso: 2,35g. - 3,65g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)
+ATRIBUTOS: {"talla": "07 a 33", "peso": "2,35g - 3,65g"}
+ATRIBUTOS: {"título": "Anillo Oro Rosa 18kts Argyor-MRM 6mm (18)R60RB Clásica Plana", "descripción": "Anillo Oro Rosa 18kts Argyor-MRM 6mm (18)R60RB Clásica Plana. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 6mm. Peso: 3,83g. - 5,95g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R60RB...", "attrs": "{}", "ia_inputs": {"bert": "Ropa y accesorios > Joyería", "clip": {"confianza": 99, "validación": 0.9938}}}
+ATRIBUTOS: {}
+BERT: Ropa y accesorios  >  Joyería
+BERT: Ropa y accesorios  >  Joyería
+BERT: Ropa y accesorios  >  Joyería
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 87%, val_titulo: 0.868)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 97%, val_titulo: 0.967)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 69%, val_titulo: 0.695)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 99%, val_titulo: 0.994)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro Blanco de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9720G35 Alianza Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, certificado y garantía"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro 9kts 375/000"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9730J45 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de anillos"
+}
+
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro Blanco de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9720G35 Alianza Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, certificado y garantía"
+}
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro Blanco de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9720G25 Alianza Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro 9kts 375/000"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9730J45 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de anillos"
+}
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro Blanco de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9720G25 Alianza Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820G50 Alianza Media Cańa Pulida",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo de oro"
+}
+
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con material y diseño específicos, ajustándose a la categoría de anillos
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+JSON PARSEADO CORRECTAMENTE:
+Confianza IA: 0.95
+Texto limpio: Anillo Oro 9kts Argyor-MRM 4,5mm (9)AR9730J45 Alianza Media Cańa Lisa...
+================================================================================
+Confianza IA: 0.95
+
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820G50 Alianza Media Cańa Pulida",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de un anillo de oro"
+}
+Razonamiento: Coincidencia con la descripción y atributos de un anillo
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+
+================================================================================
+Confianza IA: 0.95
+Texto limpio: Anillo Oro Blanco 9kts Argyor-MRM 2,5mm (9)AR9720G25 Alianza Cańa Lisa...
+================================================================================
+Razonamiento: Anillo con material y diseño específicos, certificado y garantía
+
+HASH: 30194f41f6b6f839f370e78154de0a6ec7c8da30cfb706997fdb6a02fba170f1
+Razonamiento: Coincidencia con la descripción y atributos de un anillo de oro
+Texto limpio: Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9720G35 Alianza Cańa Lisa...
+================================================================================
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 5mm (18)R50RB Clásica Plana
+Texto limpio: Anillo Oro 9kts Argyor-MRM 5mm (9)AR9820G50 Alianza Media Cańa Pulida...
+
+================================================================================
+
+HASH: e54549912c5c0b6f482eb79575c44c55f78002eb6ad2e821848699c1f39b2103
+================================================================================
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)TR40 Clásica Semibombeada
+
+
+================================================================================
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)TR40 Clásica Semibombeada. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Semibombeada. Medidas 4mm. Peso: 3,66g. - 5,68g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TR4
+HASH: f18913fb5117a551ba3cac1fac02fc8db0cbec11337299fe684a7247e5440372
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 5mm (18)R50RB Clásica Plana. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 5mm. Peso: 3,35g. - 5,20g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R50RB
+
+================================================================================
+ATRIBUTOS: {"categoria": "Joyería", "confianza": 94}
+ATRIBUTOS: {"título": "Anillo Oro Rosa 18kts Argyor-MRM 5mm (18)R50RB Clásica Plana", "descripción": "Anillo Oro Rosa 18kts Argyor-MRM 5mm (18)R50RB Clásica Plana. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 5mm. Peso: 3,35g. - 5,20g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R50RB...", "attrs": "{}", "ia_inputs": {"bert": "Ropa y accesorios > Joyería", "clip": {"confianza": 99, "validación": 0.9918}}}
+BERT: Ropa y accesorios  >  Joyería
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 99%, val_titulo: 0.992)
+HASH: c3c30f6c6cca8fa4bc5d3fbce7c6ebd2e72a4b9576dfafe87e19e2209ae4d129
+--------------------------------------------------------------------------------
+CLIP:  (conf: 94%, val_titulo: 0.937)
+--------------------------------------------------------------------------------
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)R40RB Clásica Plana
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)LF1R40 Fantasia Confort
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)LF1R40 Fantasia Confort. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Fantasia Confort. Medidas 4mm. Peso: 3,83g. - 5,95g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)LF1R40
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)R40RB Clásica Plana. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 4mm. Peso: 2,52g. - 3,92g.Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R40RB
+ATRIBUTOS: {"título": "Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)R40RB Clásica Plana", "descripción": "Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)R40RB Clásica Plana. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 4mm. Peso: 2,52g. - 3,92g.Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R40RB...", "attrs": "{}", "ia_inputs": {"bert": "Ropa y accesorios  >  Joyería", "clip": {"confianza": "100%", "validación": "0.9983"}}}
+ATRIBUTOS: {"título": "Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)LF1R40 Fantasia Confort", "descripción": "Anillo Oro Rosa 18kts Argyor-MRM 4mm (18)LF1R40 Fantasia Confort. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Fantasia Confort. Medidas 4mm. Peso: 3,83g. - 5,95g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)LF1R40...", "attrs": "{}", "ia_inputs": {"bert": "Ropa y accesorios  >  Joyería", "clip": {"confianza": "100%", "validación": "0.9969"}}}
+BERT: Ropa y accesorios  >  Joyería
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 100%, val_titulo: 0.998)
+--------------------------------------------------------------------------------
+CLIP:  (conf: 100%, val_titulo: 0.997)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9730J35 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de anillo y características de material y tallas"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9730J35 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de anillo y características de material y tallas"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción de anillo y características de material y tallas
+Texto limpio: Anillo Oro 9kts Argyor-MRM 3,5mm (9)AR9730J35 Alianza Media Cańa Lisa...
+================================================================================
+
+
+================================================================================
+HASH: ff23d574ef8fb95291a97d4ba970eb3a87b3831bb4428a49b9209a64d171a2e4
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 3mm (18)TR30 Clásica Semibombeada
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 3mm (18)TR30 Clásica Semibombeada. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Semibombeada. Medidas 3mm. Peso: 2,70g. - 4,19g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TR3
+ATRIBUTOS: {"clave": "valor"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 98%, val_titulo: 0.985)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro Blanco de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9710G35 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajuste a la categoría de anillos"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro Blanco de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9710G35 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajuste a la categoría de anillos"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con material y diseño específicos, ajuste a la categoría de anillos
+Texto limpio: Anillo Oro Blanco 9kts Argyor-MRM 3,5mm (9)AR9710G35 Alianza Media Cańa...
+================================================================================
+
+
+================================================================================
+HASH: 82b7bc17bdc5070aaf76495526aae43d7cc53bd672e62a9a1f6cb5a30d6cd6cb
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 3mm (18)RT5R Diamantes GH-P1 0,05ct
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 3mm (18)RT5R Diamantes GH-P1 0,05ct. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Diamantes GH-P1 0,05ct. Medidas 3mm. Peso: 2,83g. - 4,39g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18
+ATRIBUTOS: {}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 74%, val_titulo: 0.744)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {"material": "Oro 9kts", "medidas": "5mm"},
+  "texto_limpio": "Anillo de Oro 9kts con diseño de Alianza Media Cańa Pulida y medidas de 5mm",
+  "confianza_ia": 0.92,
+  "razonamiento": "Clasificado en Joyería > Anillos debido a la descripción de anillo y materiales utilizados",
+  "clip": {"confianza": 71, "valididad": 0.7099}
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {
+    "material": "Oro 9kts",
+    "medidas": "5mm"
+  },
+  "texto_limpio": "Anillo de Oro 9kts con diseño de Alianza Media Cańa Pulida y medidas de 5mm",
+  "confianza_ia": 0.92,
+  "razonamiento": "Clasificado en Joyería > Anillos debido a la descripción de anillo y materiales utilizados",
+  "clip": {
+    "confianza": 71,
+    "valididad": 0.7099
+  }
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.92
+Razonamiento: Clasificado en Joyería > Anillos debido a la descripción de anillo y materiales utilizados
+Texto limpio: Anillo de Oro 9kts con diseño de Alianza Media Cańa Pulida y medidas de 5mm...
+================================================================================
+
+
+================================================================================
+HASH: 23b5dd250f1e392412e85a38a113c05e6c84aa9b5804fdf639e1118acd6d6fe5
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 3mm (18)R30RB Clásica Plana
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 3mm (18)R30RB Clásica Plana. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 3mm. Peso: 1,87g. - 2,91g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R30RB
+ATRIBUTOS: {"talla": "07 a 33", "peso": "1,87g - 2,91g"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 100%, val_titulo: 0.999)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {"material": "Oro", "talla": "2mm", "tipo": "Alianza"},
+  "texto_limpio": "Anillo de oro 9kts con diseño de alianza media caña pulida, tallas 07 a 33, medidas 2mm",
+  "confianza_ia": 0.92,
+  "razonamiento": "La clasificación se basa en la descripción del producto y los atributos mencionados, que coinciden con la categoría de joyería y anillos en particular"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {
+    "material": "Oro",
+    "talla": "2mm",
+    "tipo": "Alianza"
+  },
+  "texto_limpio": "Anillo de oro 9kts con diseño de alianza media caña pulida, tallas 07 a 33, medidas 2mm",
+  "confianza_ia": 0.92,
+  "razonamiento": "La clasificación se basa en la descripción del producto y los atributos mencionados, que coinciden con la categoría de joyería y anillos en particular"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.92
+Razonamiento: La clasificación se basa en la descripción del producto y los atributos mencionados, que coinciden con la categoría de joyería y anillos en particular
+Texto limpio: Anillo de oro 9kts con diseño de alianza media caña pulida, tallas 07 a 33, medidas 2mm...
+================================================================================
+
+
+================================================================================
+HASH: ff99f4dfaf11316e23a4e609dfb6c6a9313a59d07447d5c58cff8f5baf420aa8
+TÍTULO: Anillo Oro Rosa 18kts Argyor-MRM 2mm (18)TR20 Clásica Semibombeada
+DESCRIPCIÓN (primeros 300): Anillo Oro Rosa 18kts Argyor-MRM 2mm (18)TR20 Clásica Semibombeada. Alianza fabricada en Oro Rosa de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Semibombeada. Medidas 2mm. Peso: 1,70g. - 2,64g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)TR2
+ATRIBUTOS: {"talla": "07 a 33", "peso": "1,70g - 2,64g"}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 95%, val_titulo: 0.950)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820J40 Alianza Media Cańa Pulida",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820J40 Alianza Media Cańa Pulida",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería
+Texto limpio: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820J40 Alianza Media Cańa Pulida...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820G40 Alianza Media Cańa Pulida",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería"
+}
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820G30 Alianza Media Cańa Pulida",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820G40 Alianza Media Cańa Pulida",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería"
+}{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820G30 Alianza Media Cańa Pulida",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería"
+}
+
+================================================================================
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+
+HASH: 76d70832d504b427cf824723c8f5cf20edf50cd4e1c68a19c52d1ffebbbf70b3
+TÍTULO: Anillo Oro Blanco 18kts Argyor-MRM 6mm (18)R60GB Clásica Plana
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Razonamiento: Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería
+Confianza IA: 0.95
+Texto limpio: Anillo Oro 9kts Argyor-MRM 3mm (9)AR9820G30 Alianza Media Cańa Pulida...
+================================================================================
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 18kts Argyor-MRM 6mm (18)R60GB Clásica Plana. Alianza fabricada en Oro Blanco de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 6mm. Peso: 3,96g. - 6,15g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R60GB
+ATRIBUTOS: {"talla": "07 a 33", "peso": "3,96g - 6,15g"}
+BERT: Ropa y accesorios  >  Joyería
+
+Razonamiento: Anillo con material y diseño específicos, ajustándose a la categoría de anillos de joyería
+CLIP:  (conf: 99%, val_titulo: 0.995)
+--------------------------------------------------------------------------------
+Texto limpio: Anillo Oro 9kts Argyor-MRM 4mm (9)AR9820G40 Alianza Media Cańa Pulida...
+
+================================================================================
+HASH: 3ccb8809bc8adc2190d8d9f0d34b17c0a9610f8f2313a6fcc85de81d18961453
+TÍTULO: Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)TG50 Clásica Semibombeada
+================================================================================
+
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)TG50 Clásica Semibombeada. Alianza fabricada en Oro Blanco de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Semibombeada. Medidas 5mm. Peso: 4,79g. - 7,44g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18
+ATRIBUTOS: {"categoria": "Joyería", "confianza": 0.91}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 91%, val_titulo: 0.908)
+--------------------------------------------------------------------------------
+
+================================================================================
+HASH: 71d6f6a88f4cd9504557e5e6a5f5bbf1bd042c900fd9cb4f2d6e287bb305ec40
+TÍTULO: Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)R50GB Clásica Plana
+DESCRIPCIÓN (primeros 300): Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)R50GB Clásica Plana. Alianza fabricada en Oro Blanco de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 5mm. Peso: 3,05g. - 4,73g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R50GB
+ATRIBUTOS: {"título": "Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)R50GB Clásica Plana", "descripción": "Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)R50GB Clásica Plana. Alianza fabricada en Oro Blanco de 18kts 750/000 (18K). Tallas 07 a 33. Diseńo de Clásica Plana. Medidas 5mm. Peso: 3,05g. - 4,73g. Certificado de autenticidad y garantía de calidad en los materiales de fabricación. Ref (18)R50GB...", "attrs": "{}", "ia_inputs": {"bert": "Ropa y accesorios  >  Joyería", "clip": {"confianza": 99, "validación": 0.9941}}}
+BERT: Ropa y accesorios  >  Joyería
+CLIP:  (conf: 99%, val_titulo: 0.994)
+--------------------------------------------------------------------------------
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con diseño específico y material preciso"
+}
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo Oro Tricolor con diseño de Aros Multiples y medidas específicas",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos son accesorios de joyería con características específicas como tallas y medidas"
+}
+
+
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo Oro Tricolor con diseño de Aros Multiples y medidas específicas",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos son accesorios de joyería con características específicas como tallas y medidas"
+}
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con diseño específico y material preciso"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillos de Oro con diseño específico y material preciso
+Texto limpio: Anillo Oro Tricolor 18kts con diseño de Aros Multiples...
+================================================================================
+
+Confianza IA: 0.95
+Razonamiento: Anillos son accesorios de joyería con características específicas como tallas y medidas
+Texto limpio: Anillo Oro Tricolor con diseño de Aros Multiples y medidas específicas...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios > Anillos > Oro",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro 9kts 375/000"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2mm (9)AR9720J20 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de Oro"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios > Anillos > Oro",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro 9kts 375/000"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2mm (9)AR9720J20 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con material y diseño específicos, ajustándose a la categoría de Oro"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con material y diseño específicos, ajustándose a la categoría de Oro
+Texto limpio: Anillo Oro 9kts Argyor-MRM 2mm (9)AR9720J20 Alianza Media Cańa Lisa...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo Oro Tricolor con diseño de Aros Multiples y medidas 1,5mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de joyería y anillo en BERT y CLIP"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo Oro Tricolor con diseño de Aros Multiples y medidas 1,5mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de joyería y anillo en BERT y CLIP"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción de joyería y anillo en BERT y CLIP
+Texto limpio: Anillo Oro Tricolor con diseño de Aros Multiples y medidas 1,5mm...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)", "diseño": "Alianza Media Cańa"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2mm (9)AR9710J20 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Clasificación directa según descripción y atributos específicos"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)",
+    "diseño": "Alianza Media Cańa"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2mm (9)AR9710J20 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Clasificación directa según descripción y atributos específicos"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería
+Confianza IA: 0.95
+Razonamiento: Clasificación directa según descripción y atributos específicos
+Texto limpio: Anillo Oro 9kts Argyor-MRM 2mm (9)AR9710J20 Alianza Media Cańa...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Tricolor > 18kts",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño Liso Con Bisel y medidas 3mm",
+  "confianza_ia": 0.98,
+  "razonamiento": "Coincidencia con la descripción y atributos del producto"
+}
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de aros múltiples y certificado de autenticidad",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de joyería y anillos de oro"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Tricolor > 18kts",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño Liso Con Bisel y medidas 3mm",
+  "confianza_ia": 0.98,
+  "razonamiento": "Coincidencia con la descripción y atributos del producto"
+}
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de aros múltiples y certificado de autenticidad",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción de joyería y anillos de oro"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.98
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos del producto
+Razonamiento: Coincidencia con la descripción de joyería y anillos de oro
+Texto limpio: Anillo Oro Tricolor 18kts con diseño Liso Con Bisel y medidas 3mm...
+Texto limpio: Anillo Oro Tricolor 18kts con diseño de aros múltiples y certificado de autenticidad...
+================================================================================
+================================================================================
+
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9730J25 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9730J25 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño de alianza y material de oro
+Texto limpio: Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9730J25 Alianza Media Cańa Lisa...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {"clave": "valor"},
+  "texto_limpio": "Anillo Oro Rosa 18kts Clásica Semibombeada",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con especificación de oro 18kts y diseño semibombeado"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {
+    "clave": "valor"
+  },
+  "texto_limpio": "Anillo Oro Rosa 18kts Clásica Semibombeada",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con especificación de oro 18kts y diseño semibombeado"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con especificación de oro 18kts y diseño semibombeado
+Texto limpio: Anillo Oro Rosa 18kts Clásica Semibombeada...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18K",
+  "json_atributos": {},
+  "texto_limpio": "Anillo Oro Rosa 18kts Argyor-MRM 5mm Clásica Semibombeada",
+  "confianza_ia": 0.98,
+  "razonamiento": "Anillos Oro > 18K > Talla y diseño Clásica Semibombeada"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18K",
+  "json_atributos": {},
+  "texto_limpio": "Anillo Oro Rosa 18kts Argyor-MRM 5mm Clásica Semibombeada",
+  "confianza_ia": 0.98,
+  "razonamiento": "Anillos Oro > 18K > Talla y diseño Clásica Semibombeada"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.98
+Razonamiento: Anillos Oro > 18K > Talla y diseño Clásica Semibombeada
+Texto limpio: Anillo Oro Rosa 18kts Argyor-MRM 5mm Clásica Semibombeada...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts > Argyor",
+  "json_atributos": {},
+  "texto_limpio": "Anillo Oro Rosa 18kts Argyor con Diamantes GH-P1 0,05ct",
+  "confianza_ia": 0.98,
+  "razonamiento": "Coincidencia con la descripción y atributos de la categoría"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts > Argyor",
+  "json_atributos": {},
+  "texto_limpio": "Anillo Oro Rosa 18kts Argyor con Diamantes GH-P1 0,05ct",
+  "confianza_ia": 0.98,
+  "razonamiento": "Coincidencia con la descripción y atributos de la categoría"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.98
+Razonamiento: Coincidencia con la descripción y atributos de la categoría
+Texto limpio: Anillo Oro Rosa 18kts Argyor con Diamantes GH-P1 0,05ct...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9720J25 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9720J25 Alianza Media Cańa Lisa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño de alianza y material de oro
+Texto limpio: Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9720J25 Alianza Media Cańa Lisa...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {"material": "Oro Rosa", "tamaño": "4mm"},
+  "texto_limpio": "Anillo Oro Rosa 18kts Argyor-MRM 4mm Clásica Plana",
+  "confianza_ia": 0.9983,
+  "razonamiento": "La descripción y atributos coinciden con la categoría de anillos de joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {
+    "material": "Oro Rosa",
+    "tamaño": "4mm"
+  },
+  "texto_limpio": "Anillo Oro Rosa 18kts Argyor-MRM 4mm Clásica Plana",
+  "confianza_ia": 0.9983,
+  "razonamiento": "La descripción y atributos coinciden con la categoría de anillos de joyería"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.9983
+Razonamiento: La descripción y atributos coinciden con la categoría de anillos de joyería
+Texto limpio: Anillo Oro Rosa 18kts Argyor-MRM 4mm Clásica Plana...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {"talla": "07 a 33", "peso": "3,35g - 5,20g"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con diseño específico y características precisas"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "3,35g - 5,20g"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con diseño específico y características precisas"
+}
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "material": "Oro de 9kts 375/000 (9K)"},
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9710J25 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillos de Oro con diseño específico y características precisas
+Texto limpio: Anillo Oro Tricolor 18kts con diseño de Aros Multiples...
+================================================================================
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "material": "Oro de 9kts 375/000 (9K)"
+  },
+  "texto_limpio": "Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9710J25 Alianza Media Cańa",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño de alianza y material de oro"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño de alianza y material de oro
+Texto limpio: Anillo Oro 9kts Argyor-MRM 2,5mm (9)AR9710J25 Alianza Media Cańa...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {"talla": "07 a 33", "peso": "3,39g - 5,27g"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con múltiples aros y características específicas"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "3,39g - 5,27g"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con múltiples aros y características específicas"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillos de Oro con múltiples aros y características específicas
+Texto limpio: Anillo Oro Tricolor 18kts con diseño de Aros Multiples...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {"talla": "07 a 33", "peso": "7,18g - 11,00g"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de Aros Multiples y medidas 4mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con diseño específico y características de peso y tallas"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "7,18g - 11,00g"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de Aros Multiples y medidas 4mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con diseño específico y características de peso y tallas"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillos de Oro con diseño específico y características de peso y tallas
+Texto limpio: Anillo Oro Tricolor 18kts con diseño de Aros Multiples y medidas 4mm...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Tricolor > 18kts",
+  "json_atributos": {"categoria": "Joyería", "confianza": 0.99},
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño Liso Con Bisel y medidas 3mm",
+  "confianza_ia": 0.99,
+  "razonamiento": "Coincidencia con la categoría de la confianza alta y atributos precisos"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Tricolor > 18kts",
+  "json_atributos": {
+    "categoria": "Joyería",
+    "confianza": 0.99
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño Liso Con Bisel y medidas 3mm",
+  "confianza_ia": 0.99,
+  "razonamiento": "Coincidencia con la categoría de la confianza alta y atributos precisos"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.99
+Razonamiento: Coincidencia con la categoría de la confianza alta y atributos precisos
+Texto limpio: Anillo Oro Tricolor 18kts con diseño Liso Con Bisel y medidas 3mm...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Tricolor > 18kts",
+  "json_atributos": {"categoria": "Joyería", "confianza": 0.9971},
+  "texto_limpio": "Anillo Oro Tricolor 18kts Argyor-MRM 4,5mm Liso Con Bisel",
+  "confianza_ia": 0.9971,
+  "razonamiento": "Coincidencia con la categoría de confianza alta y atributos precisos"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Tricolor > 18kts",
+  "json_atributos": {
+    "categoria": "Joyería",
+    "confianza": 0.9971
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts Argyor-MRM 4,5mm Liso Con Bisel",
+  "confianza_ia": 0.9971,
+  "razonamiento": "Coincidencia con la categoría de confianza alta y atributos precisos"
+}
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {"material": "Oro Blanco", "tamaño": "5mm"},
+  "texto_limpio": "Anillo Oro Blanco 18kts Argyor-MRM 5mm Clásica Plana",
+  "confianza_ia": 0.99,
+  "razonamiento": "Coincidencia con la categoría de joyería y anillos"
+}
+
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+JSON PARSEADO CORRECTAMENTE:
+Confianza IA: 0.9971
+{
+  "categoria_final": "Joyería > Accesorios de joyería > Anillos",
+  "json_atributos": {
+    "material": "Oro Blanco",
+    "tamaño": "5mm"
+  },
+  "texto_limpio": "Anillo Oro Blanco 18kts Argyor-MRM 5mm Clásica Plana",
+  "confianza_ia": 0.99,
+  "razonamiento": "Coincidencia con la categoría de joyería y anillos"
+}
+Razonamiento: Coincidencia con la categoría de confianza alta y atributos precisos
+Texto limpio: Anillo Oro Tricolor 18kts Argyor-MRM 4,5mm Liso Con Bisel...
+================================================================================
+
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.99
+Razonamiento: Coincidencia con la categoría de joyería y anillos
+Texto limpio: Anillo Oro Blanco 18kts Argyor-MRM 5mm Clásica Plana...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Tricolor > 18kts",
+  "json_atributos": {"talla": "07 a 33", "peso": "2,00g - 3,04g"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de dibujo y tallas 07 a 33",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos del producto"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Tricolor > 18kts",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "2,00g - 3,04g"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts con diseño de dibujo y tallas 07 a 33",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos del producto"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos del producto
+Texto limpio: Anillo Oro Tricolor 18kts con diseño de dibujo y tallas 07 a 33...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {"talla": "07 a 33", "peso": "2,35g - 3,65g"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts Argyor-MRM 1,5mm con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con características específicas de joyería y diseño de aros múltiples"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "2,35g - 3,65g"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts Argyor-MRM 1,5mm con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con características específicas de joyería y diseño de aros múltiples"
+}
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {"material": "Oro", "tamaño": "6mm", "peso": "3.83g - 5.95g"},
+  "texto_limpio": "Anillo Oro Rosa 18kts con diseño Clásica Plana y medidas 6mm",
+  "confianza_ia": 0.99,
+  "razonamiento": "Coincidencia con la descripción y atributos del producto"
+}
+
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+JSON PARSEADO CORRECTAMENTE:
+Confianza IA: 0.95
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {
+    "material": "Oro",
+    "tamaño": "6mm",
+    "peso": "3.83g - 5.95g"
+  },
+  "texto_limpio": "Anillo Oro Rosa 18kts con diseño Clásica Plana y medidas 6mm",
+  "confianza_ia": 0.99,
+  "razonamiento": "Coincidencia con la descripción y atributos del producto"
+}
+Razonamiento: Anillo con características específicas de joyería y diseño de aros múltiples
+Texto limpio: Anillo Oro Tricolor 18kts Argyor-MRM 1,5mm con diseño de Aros Multiples...
+================================================================================
+
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.99
+Razonamiento: Coincidencia con la descripción y atributos del producto
+Texto limpio: Anillo Oro Rosa 18kts con diseño Clásica Plana y medidas 6mm...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {"talla": "07 a 33", "peso": "4,48g - 6,96g"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts Argyor-MRM 3,5mm con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con múltiples aros y tallas variables"
+}
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {"categoria": "Joyería", "confianza": 94},
+  "texto_limpio": "Anillo Oro Rosa 18kts Clásica Semibombeada con medidas 4mm y tallas 07 a 33",
+  "confianza_ia": 0.94,
+  "razonamiento": "Coincidencia con la categoría de joyería y especificación del material y diseño"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "4,48g - 6,96g"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts Argyor-MRM 3,5mm con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con múltiples aros y tallas variables"
+}
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {
+    "categoria": "Joyería",
+    "confianza": 94
+  },
+  "texto_limpio": "Anillo Oro Rosa 18kts Clásica Semibombeada con medidas 4mm y tallas 07 a 33",
+  "confianza_ia": 0.94,
+  "razonamiento": "Coincidencia con la categoría de joyería y especificación del material y diseño"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.94
+Razonamiento: Coincidencia con la categoría de joyería y especificación del material y diseño
+Texto limpio: Anillo Oro Rosa 18kts Clásica Semibombeada con medidas 4mm y tallas 07 a 33...
+================================================================================
+
+Confianza IA: 0.95
+Razonamiento: Anillos de Oro con múltiples aros y tallas variables
+Texto limpio: Anillo Oro Tricolor 18kts Argyor-MRM 3,5mm con diseño de Aros Multiples...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {"material": "Oro Rosa", "talla": "5mm", "peso": "3,35g - 5,20g"},
+  "texto_limpio": "Anillo Oro Rosa 18kts Argyor-MRM 5mm Clásica Plana",
+  "confianza_ia": 0.99,
+  "razonamiento": "Coincidencia con la sugerencia de BERT y alta confianza de CLIP"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos",
+  "json_atributos": {
+    "material": "Oro Rosa",
+    "talla": "5mm",
+    "peso": "3,35g - 5,20g"
+  },
+  "texto_limpio": "Anillo Oro Rosa 18kts Argyor-MRM 5mm Clásica Plana",
+  "confianza_ia": 0.99,
+  "razonamiento": "Coincidencia con la sugerencia de BERT y alta confianza de CLIP"
+}
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {"talla": "07 a 33", "peso": "4,00g - 6,22g"},
+  "texto_limpio": "Anillo Oro Tricolor 18kts Argyor-MRM 2,5mm con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con diseño de Aros Multiples y características específicas"
+}
+
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+JSON PARSEADO CORRECTAMENTE:
+Confianza IA: 0.99
+{
+  "categoria_final": "Joyería > Anillos > Oro > Anillos de Oro",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "4,00g - 6,22g"
+  },
+  "texto_limpio": "Anillo Oro Tricolor 18kts Argyor-MRM 2,5mm con diseño de Aros Multiples",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillos de Oro con diseño de Aros Multiples y características específicas"
+}
+Razonamiento: Coincidencia con la sugerencia de BERT y alta confianza de CLIP
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Texto limpio: Anillo Oro Rosa 18kts Argyor-MRM 5mm Clásica Plana...
+================================================================================
+
+Confianza IA: 0.95
+Razonamiento: Anillos de Oro con diseño de Aros Multiples y características específicas
+Texto limpio: Anillo Oro Tricolor 18kts Argyor-MRM 2,5mm con diseño de Aros Multiples...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {"talla": "07 a 33", "peso": "1,70g - 2,64g"},
+  "texto_limpio": "Anillo Oro Rosa 18kts Clásica Semibombeada con medidas 2mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de la joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "1,70g - 2,64g"
+  },
+  "texto_limpio": "Anillo Oro Rosa 18kts Clásica Semibombeada con medidas 2mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de la joyería"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos de la joyería
+Texto limpio: Anillo Oro Rosa 18kts Clásica Semibombeada con medidas 2mm...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Blanco > 18kts",
+  "json_atributos": {"talla": "07 a 33", "peso": "3,96g - 6,15g"},
+  "texto_limpio": "Anillo Oro Blanco 18kts con diseño Clásica Plana y medidas 6mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de la joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > Blanco > 18kts",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "3,96g - 6,15g"
+  },
+  "texto_limpio": "Anillo Oro Blanco 18kts con diseño Clásica Plana y medidas 6mm",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de la joyería"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos de la joyería
+Texto limpio: Anillo Oro Blanco 18kts con diseño Clásica Plana y medidas 6mm...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Accesorios > Anillos",
+  "json_atributos": {"categoria": "Joyería", "confianza": 0.91},
+  "texto_limpio": "Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)TG50 Clásica Semibombeada",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño clásico y material oro blanco, se ajusta a la categoría de anillos"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Accesorios > Anillos",
+  "json_atributos": {
+    "categoria": "Joyería",
+    "confianza": 0.91
+  },
+  "texto_limpio": "Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)TG50 Clásica Semibombeada",
+  "confianza_ia": 0.95,
+  "razonamiento": "Anillo con diseño clásico y material oro blanco, se ajusta a la categoría de anillos"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Anillo con diseño clásico y material oro blanco, se ajusta a la categoría de anillos
+Texto limpio: Anillo Oro Blanco 18kts Argyor-MRM 5mm (18)TG50 Clásica Semibombeada...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {"material": "Oro", "tamaño": "4mm", "peso": "3.83g - 5.95g"},
+  "texto_limpio": "Anillo Oro Rosa 18kts con diseño de Fantasia Confort y medidas 4mm",
+  "confianza_ia": 0.92,
+  "razonamiento": "La elección se basa en la descripción detallada del producto y la certificación de autenticidad"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {
+    "material": "Oro",
+    "tamaño": "4mm",
+    "peso": "3.83g - 5.95g"
+  },
+  "texto_limpio": "Anillo Oro Rosa 18kts con diseño de Fantasia Confort y medidas 4mm",
+  "confianza_ia": 0.92,
+  "razonamiento": "La elección se basa en la descripción detallada del producto y la certificación de autenticidad"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.92
+Razonamiento: La elección se basa en la descripción detallada del producto y la certificación de autenticidad
+Texto limpio: Anillo Oro Rosa 18kts con diseño de Fantasia Confort y medidas 4mm...
+================================================================================
+
+RESPUESTA COMPLETA DEL MODELO:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {"talla": "07 a 33", "peso": "1,87g - 2,91g"},
+  "texto_limpio": "Anillo Oro Rosa 18kts Clásica Plana, tallas 07 a 33, peso 1,87g - 2,91g",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de la joyería"
+}
+
+JSON PARSEADO CORRECTAMENTE:
+{
+  "categoria_final": "Joyería > Anillos > Oro > 18kts",
+  "json_atributos": {
+    "talla": "07 a 33",
+    "peso": "1,87g - 2,91g"
+  },
+  "texto_limpio": "Anillo Oro Rosa 18kts Clásica Plana, tallas 07 a 33, peso 1,87g - 2,91g",
+  "confianza_ia": 0.95,
+  "razonamiento": "Coincidencia con la descripción y atributos de la joyería"
+}
+✅ CATEGORÍA FINAL ELEGIDA: Ropa y accesorios  >  Joyería  >  Anillos
+Confianza IA: 0.95
+Razonamiento: Coincidencia con la descripción y atributos de la joyería
+Texto limpio: Anillo Oro Rosa 18kts Clásica Plana, tallas 07 a 33, peso 1,87g - 2,91g...
+================================================================================
+
+Batch completado: 64 OK / 64 total
+DEBUG MODE: No se ha modificado la base de datos. Saliendo después de 1 batch.
+FIN. Total procesados en esta ejecución: 64
