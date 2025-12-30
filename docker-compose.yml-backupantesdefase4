@@ -12,13 +12,7 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
     command: tail -f /dev/null
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+
 networks:
   red_compartida:
     name: tracking_api_project_default

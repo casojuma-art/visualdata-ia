@@ -9,13 +9,8 @@ $ cd /lab/developer/docker/visualdata-ia
 [cite_start]$ docker compose up -d
 
 # --- PASO PREVIO: ARRANCAR SERVIDOR LLM (RTX 5090) ---
-$ docker run -d --name vllm-server --gpus all -p 8000:8000 --ipc=host \
-  --ulimit memlock=-1 --ulimit stack=67108864 \
-  -v ~/.cache/huggingface:/root/.cache/huggingface \
-  -e HF_TOKEN="tu_token_aqui" \
-  vllm/vllm-openai:latest \
-  hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4 \
-  --gpu-memory-utilization 0.95 --max-model-len 32768 --max-num-seqs 512
+
+docker rm -f vllm-server && docker run -d --name vllm-server   --runtime nvidia   --gpus all   -p 8000:8000   --ipc=host   -e HF_TOKEN="tokenborrado"   -v ~/.cache/huggingface:/root/.cache/huggingface   vllm/vllm-openai:latest   --model meta-llama/Llama-3.1-8B-Instruct   --dtype bfloat16   --max-model-len 8192   --gpu-memory-utilization 0.9
 
 
 
@@ -46,6 +41,10 @@ $ docker exec -it vi-downloader python 03c-dataset_builder.py
 
 # --- FASE 04: LA FÁBRICA (INFERENCIA) ---
 Producción masiva de descripciones limpias y neutrales automáticas.
+docker exec -it vi-downloader env \
+  HF_TOKEN=tokenborrado \
+  PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+  python /app/04a-train_vlm-auto-filter.py
 
 
 
@@ -142,7 +141,29 @@ FROM downloads
 WHERE is_valid = 1;
 801718|41237|16|760465|5.14
 
+AUDITAR CARLIDAD DE RESULTADOS
+caso@211:/lab/developer/docker/visualdata-ia/downloader$ docker exec -it vi-downloader sqlite3 /lab/visualdata-ia/db/registry.db \
+"SELECT 
+  CASE 
+    WHEN score_ia >= 0.95 THEN '1. Excelente (0.95-1.0)'
+    WHEN score_ia >= 0.85 THEN '2. Muy Bueno (0.85-0.94)'
+    WHEN score_ia >= 0.70 THEN '3. Aceptable (0.70-0.84)'
+    ELSE '4. Dudoso (< 0.70)'
+  END as Rango,
+  COUNT(*) as Total,
+  ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM downloads WHERE curator_attempts > 0), 2) as Porcentaje
+FROM downloads 
+WHERE curator_attempts > 0 
+GROUP BY Rango 
+ORDER BY Rango;"
+1. Excelente (0.95-1.0)|141500|81.44
+2. Muy Bueno (0.85-0.94)|20563|11.84
+3. Aceptable (0.70-0.84)|5083|2.93
+4. Dudoso (< 0.70)|6591|3.79
 
+--------------------------------------------------------
+listado de categorias a mejorar con berth
+docker exec -it vi-downloader python 03b-master_curator-qa-categorias.py >categorias-a-mejorar.txt
 
 -----------------------------------------------------------
 SUB-FASE 03-C: LA UNIVERSIDAD (03c-dataset_builder.py)
@@ -151,6 +172,18 @@ PROCESO:
 - Mapeo de Imagen + Contexto -> Atributos + Texto Limpio.
 SALIDA: Archivo JSONL listo para entrenamiento de VLM.
 
+
+03e-detectar-too-long.py
+detecta cadenas largas que agotarian la memoria de la gpu
+docker exec -it vi-downloader env HF_TOKEN=tokenborrado python /app/03e-detectar-too-long.py
+
+
+-----------------------------------------------------------
+SUB-FASE 04-a: entrenamiento
+-----------------------------------------------------------
+
+
+............................
 
 ==========================================================
 PIPELINE SeeStocks: FASE 04 - LA FÁBRICA (VLM)
@@ -239,13 +272,8 @@ arrancar llm
 
 docker rm -f vllm-server
 
-docker run -d --name vllm-server --gpus all -p 8000:8000 --ipc=host \
-  --ulimit memlock=-1 --ulimit stack=67108864 \
-  -v ~/.cache/huggingface:/root/.cache/huggingface \
-  -e HF_TOKEN="tu_token_aqui" \
-  vllm/vllm-openai:latest \
-  hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4 \
-  --gpu-memory-utilization 0.95 --max-model-len 32768 --max-num-seqs 512
+docker rm -f vllm-server && docker run -d --name vllm-server   --runtime nvidia   --gpus all   -p 8000:8000   --ipc=host   -e HF_TOKEN="tokenborrado"   -v ~/.cache/huggingface:/root/.cache/huggingface   vllm/vllm-openai:latest   --model meta-llama/Llama-3.1-8B-Instruct   --dtype bfloat16   --max-model-len 8192   --gpu-memory-utilization 0.9
+
 
 ver el log
 docker logs -f vllm-server

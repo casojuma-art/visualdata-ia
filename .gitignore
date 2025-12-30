@@ -1,0 +1,9 @@
+# --- Ignorar carpetas de sistema y librerías ---
+.venv_reusa_ia/
+__pycache__/
+*.pyc
+
+# --- Ignorar datos pesados ---
+*.csv
+*.xlsx
+reusa-clasifica/datos_sinteticos_*.csv

@@ -1,0 +1,500 @@
+GPC_ID   | MEDIA   | DUDOSOS  | TOTAL    | % ERROR | CATEGORIA
+------------------------------------------------------------------------------------------------------------------------
+7236     | 0.840   | 1220     | 16886    |    7.2% | Ropa y accesorios  >  Prendas de vestir  >  Uniformes  >  Uniformes de servicio de comida  >  Pantalones de chef
+188      | 0.916   | 905      | 25789    |    3.5% | Ropa y accesorios  >  Joyería
+504642   | 0.908   | 404      | 15112    |    2.7% | Arte y ocio  >  Hobbies y artes creativas  >  Manualidades  >  Herramientas para manualidades  >  Herramientas de gofrado y recorte  >  Cortadores y estampadores para manualidades
+192      | 0.896   | 364      | 4995     |    7.3% | Ropa y accesorios  >  Joyería  >  Colgantes y dijes
+899      | 0.922   | 361      | 18092    |    2.0% | Vehículos y recambios  >  Piezas y accesorios para vehículos  >  Piezas para vehículos motorizados
+5123     | 0.665   | 304      | 1020     |   29.8% | Ropa y accesorios  >  Joyería  >  Accesorios para reloj  >  Correas de reloj
+2890     | 0.913   | 244      | 13873    |    1.8% | Salud y belleza  >  Cuidado de la salud  >  Nutrición y actividad física
+194      | 0.936   | 238      | 8844     |    2.7% | Ropa y accesorios  >  Joyería  >  Pendientes
+1869     | 0.748   | 231      | 889      |   26.0% | Bricolaje  >  Suministros eléctricos  >  Enchufes de pared
+8228     | 0.931   | 226      | 28738    |    0.8% | Vehículos y recambios  >  Piezas y accesorios para vehículos  >  Piezas para vehículos motorizados  >  Remolque de vehículos motorizados
+684      | 0.920   | 199      | 14056    |    1.4% | Casa y jardín  >  Cocina y comedor  >  Electrodomésticos de cocina  >  Extractores
+2526     | 0.921   | 181      | 23689    |    0.8% | Salud y belleza  >  Cuidado personal  >  Cosméticos  >  Cuidado de la piel  >  Productos de limpieza facial
+2984     | 0.920   | 162      | 25675    |    0.6% | Salud y belleza  >  Cuidado de la salud  >  Nutrición y actividad física  >  Barritas energéticas
+3890     | 0.843   | 160      | 1312     |   12.2% | Casa y jardín  >  Decoración  >  Relojes
+721      | 0.906   | 155      | 8901     |    1.7% | Casa y jardín  >  Jardín  >  Jardinería  >  Macetas y tiestos
+608      | 0.894   | 153      | 2952     |    5.2% | Casa y jardín  >  Electrodomésticos  >  Control del clima  >  Ventiladores
+2466     | 0.888   | 139      | 1829     |    7.6% | Bricolaje  >  Fontanería  >  Accesorios de fontanería  >  Válvulas de fontanería
+7        | 0.891   | 132      | 7233     |    1.8% | Productos para mascotas y animales  >  Productos para mascotas  >  Productos para reptiles y anfibios
+1810     | 0.879   | 132      | 1507     |    8.8% | Bricolaje  >  Fontanería  >  Accesorios de fontanería
+5587     | 0.919   | 127      | 4953     |    2.6% | Bricolaje  >  Herramientas  >  Herramientas eléctricas y multifunción
+200      | 0.941   | 126      | 10709    |    1.2% | Ropa y accesorios  >  Joyería  >  Anillos
+3        | 0.896   | 124      | 6579     |    1.9% | Productos para mascotas y animales  >  Productos para mascotas  >  Productos para pájaros
+500054   | 0.919   | 123      | 6034     |    2.0% | Bricolaje  >  Accesorios de bricolaje  >  Artículos de ferretería
+182      | 0.910   | 120      | 5822     |    2.1% | Ropa y accesorios  >  Prendas de vestir  >  Ropa de bebés y niños pequeños
+5868     | 0.789   | 120      | 643      |   18.7% | Arte y ocio  >  Fiestas y celebraciones  >  Trofeos y premios
+6343     | 0.907   | 96       | 4427     |    2.2% | Bricolaje  >  Materiales de construcción  >  Artículos para puertas
+4074     | 0.869   | 89       | 1218     |    7.3% | Bricolaje  >  Herramientas  >  Sensores y herramientas de medida  >  Medidores de pH
+604      | 0.901   | 87       | 2397     |    3.6% | Casa y jardín  >  Electrodomésticos
+7130     | 0.919   | 87       | 2820     |    3.1% | Bricolaje  >  Fontanería  >  Piezas y herramientas para componentes de fontanería  >  Artículos de ducha  >  Paredes y mamparas de ducha
+1195     | 0.945   | 83       | 4861     |    1.7% | Bricolaje  >  Herramientas  >  Llaves para tuercas
+3329     | 0.918   | 80       | 4577     |    1.7% | Casa y jardín  >  Iluminación  >  Bombillas  >  Bombillas con diodos led
+313      | 0.919   | 77       | 3417     |    2.3% | Software  >  Software informático
+2082     | 0.868   | 75       | 960      |    7.8% | Electrónica  >  Accesorios electrónicos
+6965     | 0.892   | 73       | 1712     |    4.3% | Bricolaje  >  Herramientas  >  Juegos de herramientas  >  Juegos de herramientas manuales
+4582     | 0.942   | 71       | 23061    |    0.3% | Equipamiento deportivo  >  Actividades al aire libre  >  Ciclismo  >  Piezas para bicicletas  >  Manillares para bicicletas
+5870     | 0.915   | 70       | 6363     |    1.1% | Salud y belleza  >  Cuidado de la salud  >  Equipos de fisioterapia
+2878     | 0.825   | 70       | 642      |   10.9% | Bricolaje  >  Accesorios de bricolaje
+196      | 0.934   | 68       | 3152     |    2.2% | Ropa y accesorios  >  Joyería  >  Collares
+201      | 0.952   | 67       | 21773    |    0.3% | Ropa y accesorios  >  Joyería  >  Relojes de pulsera y de bolsillo
+276      | 0.914   | 67       | 1520     |    4.4% | Electrónica  >  Accesorios electrónicos  >  Electricidad  >  Pilas y baterías
+177      | 0.909   | 66       | 6136     |    1.1% | Ropa y accesorios  >  Complementos  >  Bufandas y chales
+2032     | 0.923   | 66       | 3441     |    1.9% | Bricolaje  >  Fontanería  >  Piezas para fontanería  >  Grifos
+7263     | 0.938   | 64       | 2822     |    2.3% | Economía e industria  >  Componentes de control de automatización  >  Controladores lógicos programables
+922      | 0.927   | 61       | 3573     |    1.7% | Material de oficina
+6763     | 0.728   | 61       | 281      |   21.7% | Casa y jardín  >  Decoración  >  Fuentes y estanques  >  Fuentes y cascadas
+499932   | 0.686   | 60       | 208      |   28.8% | Bricolaje  >  Suministros eléctricos  >  Interruptores eléctricos  >  Interruptores eléctricos de especialidad
+191      | 0.942   | 59       | 6600     |    0.9% | Ropa y accesorios  >  Joyería  >  Pulseras
+2962     | 0.882   | 55       | 1393     |    3.9% | Casa y jardín  >  Jardín  >  Jardinería
+473      | 0.933   | 51       | 4897     |    1.0% | Salud y belleza  >  Cuidado personal  >  Cosméticos
+5697     | 0.929   | 50       | 8844     |    0.6% | Ropa y accesorios  >  Prendas de vestir  >  Ropa deportiva  >  Ropa de ciclismo
+719      | 0.896   | 50       | 2015     |    2.5% | Casa y jardín  >  Jardín  >  Artículos de exterior  >  Sombrillas
+5847     | 0.924   | 50       | 5023     |    1.0% | Casa y jardín  >  Decoración  >  Fragancias para el hogar  >  Aceites aromáticos
+500000   | 0.901   | 48       | 983      |    4.9% | Mobiliario  >  Conjuntos de mobiliario  >  Muebles de baño
+35       | 0.906   | 48       | 1537     |    3.1% | Arte y ocio  >  Hobbies y artes creativas  >  Trucos de magia
+6463     | 0.903   | 46       | 1011     |    4.5% | Ropa y accesorios  >  Joyería  >  Conjuntos de joyas
+1013     | 0.891   | 45       | 1206     |    3.7% | Equipamiento deportivo  >  Actividades al aire libre  >  Camping y senderismo
+184      | 0.928   | 44       | 5306     |    0.8% | Ropa y accesorios  >  Disfraces y accesorios
+503771   | 0.820   | 44       | 372      |   11.8% | Economía e industria  >  Manipulación de materiales  >  Izado y subida  >  Carretillas elevadoras
+648      | 0.917   | 42       | 2779     |    1.5% | Casa y jardín  >  Cocina y comedor  >  Utensilios para cocinar y para hornear  >  Utensilios para hornear  >  Bandejas para hornear
+2768     | 0.931   | 41       | 6383     |    0.6% | Vehículos y recambios  >  Piezas y accesorios para vehículos  >  Seguridad y protección para vehículos  >  Sistemas de alarmas y bloqueo
+503742   | 0.925   | 41       | 2271     |    1.8% | Bricolaje  >  Consumibles para construcción  >  Pegamentos y adhesivos industriales
+5322     | 0.924   | 40       | 8701     |    0.5% | Ropa y accesorios  >  Prendas de vestir  >  Ropa deportiva
+4636     | 0.910   | 40       | 1363     |    2.9% | Casa y jardín  >  Iluminación  >  Lámparas móviles
+1807     | 0.917   | 39       | 4537     |    0.9% | Ropa y accesorios  >  Prendas de vestir  >  Ropa interior y calcetines  >  Ropa interior térmica
+422      | 0.912   | 37       | 1899     |    1.9% | Alimentación, bebida y tabaco  >  Alimentos
+203      | 0.917   | 36       | 2008     |    1.8% | Ropa y accesorios  >  Prendas de vestir  >  Ropa de abrigo
+3674     | 0.921   | 36       | 4029     |    0.9% | Equipamiento deportivo  >  Actividades al aire libre  >  Caza y tiro  >  Caza  >  Trampas para animales
+2251     | 0.934   | 35       | 2285     |    1.5% | Bricolaje  >  Accesorios de bricolaje  >  Artículos de ferretería  >  Tornillos
+520      | 0.924   | 33       | 5162     |    0.6% | Salud y belleza  >  Cuidado de la salud  >  Movilidad y accesibilidad  >  Equipo de accesibilidad
+226      | 0.770   | 32       | 202      |   15.8% | Electrónica  >  Audio  >  Reproducción y grabación de sonido  >  Reproductores y grabadoras de CD
+1180     | 0.925   | 32       | 785      |    4.1% | Bricolaje  >  Herramientas  >  Cortadores
+3017     | 0.900   | 31       | 605      |    5.1% | Casa y jardín  >  Piscina y spa  >  Accesorios para piscinas y jacuzzis  >  Limpieza y desinfección de piscinas
+1226     | 0.890   | 31       | 1001     |    3.1% | Casa y jardín  >  Jardín  >  Maquinaria de jardinería  >  Limpiadoras a presión
+639      | 0.929   | 30       | 5674     |    0.5% | Casa y jardín  >  Cocina y comedor  >  Herramientas y utensilios de cocina  >  Delantales
+4700     | 0.918   | 30       | 1414     |    2.1% | Bricolaje  >  Accesorios de bricolaje  >  Ferretería para armarios  >  Pomos y picaportes de armarios
+5788     | 0.920   | 30       | 3596     |    0.8% | Alimentación, bebida y tabaco  >  Alimentos  >  Chucherías y postres helados
+4171     | 0.926   | 29       | 3116     |    0.9% | Casa y jardín  >  Ropa de casa
+4468     | 0.947   | 29       | 1436     |    2.0% | Bricolaje  >  Materiales de construcción  >  Puertas  >  Puertas de garaje
+2413     | 0.809   | 28       | 212      |   13.2% | Bricolaje  >  Suministros eléctricos  >  Kits de automatización doméstica
+984      | 0.942   | 27       | 3673     |    0.7% | Casa y jardín  >  Plantas  >  Flores
+913      | 0.922   | 26       | 2063     |    1.3% | Vehículos y recambios  >  Piezas y accesorios para vehículos  >  Mantenimiento, cuidado y decoración de vehículos
+5863     | 0.833   | 26       | 183      |   14.2% | Economía e industria  >  Publicidad y márketing
+1356     | 0.918   | 26       | 2005     |    1.3% | Bricolaje  >  Materiales de construcción  >  Artículos para puertas  >  Picaportes y manijas para puertas
+505302   | 0.869   | 25       | 250      |   10.0% | Equipamiento deportivo  >  Fitness y musculación  >  Reflectores y luces de seguridad deportivos
+3684     | 0.922   | 25       | 1878     |    1.3% | Casa y jardín  >  Cocina y comedor  >  Accesorios para aparatos de cocina  >  Accesorios para barbacoas
+491      | 0.927   | 24       | 4096     |    0.6% | Salud y belleza  >  Cuidado de la salud
+401      | 0.905   | 24       | 1112     |    2.2% | Electrónica  >  Vídeo  >  Televisión por cable y satélite  >  Receptores satélite
+2485     | 0.910   | 24       | 759      |    3.2% | Bricolaje  >  Accesorios de bricolaje  >  Organización y almacenamiento de herramientas  >  Cinturones de trabajo y de herramientas
+193      | 0.834   | 23       | 161      |   14.3% | Ropa y accesorios  >  Complementos  >  Gemelos
+597      | 0.883   | 23       | 448      |    5.1% | Casa y jardín  >  Decoración  >  Marcos para fotos
+1239     | 0.930   | 22       | 2053     |    1.1% | Juegos y juguetes
+638      | 0.905   | 22       | 1056     |    2.1% | Casa y jardín  >  Cocina y comedor
+499772   | 0.923   | 22       | 1891     |    1.2% | Bricolaje  >  Materiales de construcción  >  Herrajes para ventanas
+1673     | 0.926   | 22       | 2881     |    0.8% | Bricolaje  >  Fontanería  >  Piezas para fontanería
+218      | 0.903   | 22       | 925      |    2.4% | Arte y ocio  >  Hobbies y artes creativas  >  Coleccionables  >  Rocas y fósiles
+5041     | 0.913   | 21       | 798      |    2.6% | Multimedia  >  Manuales de productos  >  Manuales de mantenimiento de vehículos
+1262     | 0.920   | 21       | 5908     |    0.4% | Juegos y juguetes  >  Juguetes  >  Juguetes educativos
+6807     | 0.892   | 21       | 346      |    6.1% | Bricolaje  >  Suministros eléctricos  >  Cuadros de distribución
+499981   | 0.903   | 21       | 922      |    2.3% | Bricolaje  >  Accesorios de bricolaje  >  Ruedas
+275      | 0.912   | 20       | 685      |    2.9% | Electrónica  >  Accesorios electrónicos  >  Electricidad
+115      | 0.895   | 20       | 421      |    4.8% | Bricolaje  >  Materiales de construcción
+523      | 0.926   | 19       | 2446     |    0.8% | Salud y belleza  >  Cuidado de la salud  >  Artículos ortopédicos y de soporte
+4973     | 0.914   | 19       | 1461     |    1.3% | Casa y jardín  >  Productos del hogar  >  Productos de limpieza para el hogar  >  Productos para limpieza del hogar
+1958     | 0.925   | 19       | 663      |    2.9% | Bricolaje  >  Herramientas  >  Alicates
+1995     | 0.878   | 19       | 255      |    7.5% | Bricolaje  >  Consumibles para construcción  >  Soldadura y decapante
+500101   | 0.903   | 19       | 344      |    5.5% | Bricolaje  >  Bombas  >  Bombas de agua
+187      | 0.946   | 18       | 10979    |    0.2% | Ropa y accesorios  >  Calzado
+503011   | 0.901   | 18       | 366      |    4.9% | Economía e industria  >  Manipulación de materiales  >  Plataformas de carga y palés
+2700     | 0.904   | 18       | 1018     |    1.8% | Casa y jardín  >  Ropa de casa  >  Ropa de cama  >  Almohadas
+3032     | 0.935   | 17       | 4786     |    0.4% | Ropa y accesorios  >  Bolsos, billeteras y estuches  >  Bolsos
+274      | 0.711   | 17       | 59       |   28.8% | Electrónica  >  Comunicación  >  Videoconferencias
+3780     | 0.907   | 17       | 580      |    2.9% | Casa y jardín  >  Jardín  >  Sistemas de riego  >  Accesorios de aspersión
+3568     | 0.920   | 17       | 784      |    2.2% | Casa y jardín  >  Jardín  >  Sistemas de riego
+499873   | 0.915   | 17       | 541      |    3.1% | Bricolaje  >  Ventilación y calefacción
+124      | 0.910   | 17       | 590      |    2.9% | Bricolaje  >  Materiales de construcción  >  Ventanas
+7136     | 0.941   | 17       | 2983     |    0.6% | Bricolaje  >  Materiales de construcción  >  Baldosas
+5798     | 0.902   | 17       | 1130     |    1.5% | Alimentación, bebida y tabaco  >  Alimentos  >  Frutas y verduras  >  Verduras en lata y en conserva
+8147     | 0.940   | 16       | 5520     |    0.3% | Vehículos y recambios  >  Piezas y accesorios para vehículos  >  Almacenamiento y carga de vehículos  >  Rampas de carga para vehículos motorizados
+554      | 0.911   | 16       | 1255     |    1.3% | Mobiliario  >  Mobiliario para bebés y niños pequeños
+6762     | 0.939   | 16       | 3925     |    0.4% | Casa y jardín  >  Plantas  >  Plantas de interior y exterior
+7401     | 0.926   | 16       | 977      |    1.6% | Casa y jardín  >  Iluminación  >  Luces empotrables de jardín
+980      | 0.945   | 15       | 5750     |    0.3% | Material de oficina  >  Artículos de oficina  >  Artículos de escritura y dibujo  >  Rotuladores y marcadores
+2986     | 0.923   | 15       | 685      |    2.2% | Material de oficina  >  Artículos de oficina
+499998   | 0.892   | 15       | 270      |    5.6% | Cámaras y ópticas  >  Accesorios ópticos y de cámara  >  Accesorios y piezas para cámaras  >  Estabilizadores y soportes para cámaras
+2951     | 0.935   | 15       | 4330     |    0.3% | Casa y jardín  >  Cocina y comedor  >  Utensilios de mesa  >  Cristalería  >  Vasos
+1217     | 0.924   | 15       | 498      |    3.0% | Bricolaje  >  Herramientas  >  Taladros
+1439     | 0.925   | 15       | 488      |    3.1% | Bricolaje  >  Herramientas  >  Llaves
+1361     | 0.934   | 15       | 1873     |    0.8% | Bricolaje  >  Consumibles para construcción  >  Consumibles para pintura  >  Pinturas
+5506     | 0.944   | 14       | 7920     |    0.2% | Ropa y accesorios  >  Prendas de vestir  >  Ropa de abrigo  >  Cazadoras
+1255     | 0.933   | 14       | 3342     |    0.4% | Juegos y juguetes  >  Juguetes  >  Muñecas, parques infantiles y figuras de juguete
+356      | 0.955   | 14       | 12904    |    0.1% | Electrónica  >  Fax, escáner, copiadora e impresora  >  Accesorios para máquinas de fax, impresoras y fotocopiadoras  >  Consumibles para impresoras  >  Cartuchos de tinta y tóner
+2999     | 0.919   | 14       | 844      |    1.7% | Cámaras y ópticas  >  Fotografía  >  Cuarto oscuro  >  Equipo de revelado y procesamiento  >  Pilas para revelado
+2524     | 0.940   | 14       | 1456     |    1.0% | Casa y jardín  >  Iluminación  >  Lámparas Fijas  >  Apliques de techo
+3006     | 0.941   | 14       | 2780     |    0.5% | Casa y jardín  >  Iluminación  >  Lámparas Fijas
+212      | 0.936   | 13       | 12191    |    0.1% | Ropa y accesorios  >  Prendas de vestir  >  Camisas y tops
+138      | 0.653   | 13       | 20       |   65.0% | Economía e industria  >  Venta al por menor
+621      | 0.918   | 13       | 436      |    3.0% | Casa y jardín  >  Electrodomésticos  >  Calentadores de agua
+1897     | 0.903   | 13       | 172      |    7.6% | Bricolaje  >  Ventilación y calefacción  >  Controles de climatización  >  Termostatos
+1305     | 0.926   | 13       | 689      |    1.9% | Bricolaje  >  Herramientas  >  Sensores y herramientas de medida
+1952     | 0.923   | 13       | 594      |    2.2% | Bricolaje  >  Fontanería  >  Filtración y distribución de agua  >  Descalcificadores
+1540     | 0.941   | 13       | 1030     |    1.3% | Bricolaje  >  Accesorios para herramientas  >  Accesorios para taladros y destornilladores  >  Brocas de taladro y cabezales de destornillador
+1771     | 0.924   | 13       | 728      |    1.8% | Bricolaje  >  Accesorios de bricolaje  >  Bisagras
+96       | 0.906   | 13       | 265      |    4.9% | Arte y ocio  >  Fiestas y celebraciones  >  Productos para fiestas
+5122     | 0.740   | 12       | 43       |   27.9% | Ropa y accesorios  >  Joyería  >  Accesorios para reloj
+505805   | 0.909   | 12       | 394      |    3.0% | Material de oficina  >  Productos generales  >  Masilla adhesiva
+264      | 0.905   | 12       | 391      |    3.1% | Electrónica  >  Comunicación  >  Telefonía  >  Accesorios para móviles
+360      | 0.882   | 12       | 198      |    6.1% | Electrónica  >  Comunicación  >  Intercomunicadores
+2047     | 0.938   | 12       | 1571     |    0.8% | Economía e industria  >  Equipo de protección para el trabajo
+689      | 0.924   | 12       | 837      |    1.4% | Casa y jardín  >  Jardín
+8042     | 0.902   | 12       | 636      |    1.9% | Casa y jardín  >  Decoración  >  Accesorios de elementos decorativos para ventanas  >  Piezas de repuesto para cortinas y persianas
+2073     | 0.930   | 12       | 1978     |    0.6% | Alimentación, bebida y tabaco  >  Bebidas  >  Té e infusiones
+5811     | 0.891   | 12       | 650      |    1.8% | Alimentación, bebida y tabaco  >  Alimentos  >  Carne, marisco y huevos  >  Carne  >  Carnes en lata
+2271     | 0.883   | 11       | 271      |    4.1% | Ropa y accesorios  >  Prendas de vestir  >  Vestidos
+175      | 0.925   | 11       | 734      |    1.5% | Ropa y accesorios  >  Accesorios para bolsos y billeteras  >  Llaveros
+500085   | 0.809   | 11       | 74       |   14.9% | Casa y jardín  >  Accesorios para electrodomésticos  >  Accesorios para electrodomésticos de lavandería  >  Accesorios para lavadoras y secadoras
+2273     | 0.883   | 11       | 146      |    7.5% | Bricolaje  >  Fontanería  >  Filtración y distribución de agua
+563      | 0.930   | 11       | 1022     |    1.1% | Bebés y niños pequeños  >  Lactancia y alimentación  >  Comida para bebés y niños  >  Fórmula infantil
+16       | 0.920   | 11       | 745      |    1.5% | Arte y ocio  >  Hobbies y artes creativas  >  Manualidades
+958      | 0.921   | 10       | 5611     |    0.2% | Material de oficina  >  Productos generales  >  Productos de papel  >  Sobres
+283      | 0.925   | 10       | 782      |    1.3% | Electrónica  >  Vídeo  >  Accesorios de vídeo  >  Accesorios para monitores de ordenador
+4072     | 0.899   | 10       | 1195     |    0.8% | Economía e industria  >  Piercings y tatuajes  >  Instrumentos para tatuajes  >  Agujas para tatuajes
+1684     | 0.934   | 10       | 2258     |    0.4% | Casa y jardín  >  Plantas  >  Árboles
+594      | 0.914   | 10       | 426      |    2.3% | Casa y jardín  >  Iluminación
+6459     | 0.860   | 10       | 97       |   10.3% | Bricolaje  >  Suministros eléctricos  >  Interruptores eléctricos
+1186     | 0.904   | 10       | 230      |    4.3% | Bricolaje  >  Herramientas  >  Martillos y mazos
+499933   | 0.922   | 10       | 413      |    2.4% | Bricolaje  >  Accesorios de bricolaje  >  Cilindros
+8526     | 0.924   | 9        | 792      |    1.1% | Vehículos y recambios  >  Piezas y accesorios para vehículos  >  Material electrónico para vehículos motorizados
+5613     | 0.936   | 9        | 994      |    0.9% | Vehículos y recambios  >  Piezas y accesorios para vehículos
+207      | 0.892   | 9        | 326      |    2.8% | Ropa y accesorios  >  Prendas de vestir  >  Pantalones cortos
+465      | 0.923   | 9        | 616      |    1.5% | Mobiliario  >  Estanterías  >  Librerías y estanterías
+930      | 0.948   | 9        | 3152     |    0.3% | Material de oficina  >  Clasificación y organización  >  Carpetas para archivos
+1016     | 0.905   | 9        | 701      |    1.3% | Equipamiento deportivo  >  Actividades al aire libre  >  Camping y senderismo  >  Vajillas y utensilios de cocina para camping
+97       | 0.922   | 9        | 397      |    2.3% | Elementos religiosos y ceremoniales  >  Artículos religiosos
+305      | 0.909   | 9        | 383      |    2.3% | Electrónica  >  Vídeo  >  Monitores de ordenador
+3873     | 0.875   | 9        | 122      |    7.4% | Casa y jardín  >  Seguridad empresarial y del hogar  >  Sistemas de alarmas para el hogar
+3798     | 0.923   | 9        | 304      |    3.0% | Casa y jardín  >  Jardín  >  Maquinaria de jardinería
+2629     | 0.912   | 9        | 169      |    5.3% | Bricolaje  >  Herramientas  >  Taladros  >  Taladros eléctricos de mano
+1203     | 0.925   | 9        | 396      |    2.3% | Bricolaje  >  Herramientas  >  Destornilladores
+504635   | 0.914   | 9        | 225      |    4.0% | Bricolaje  >  Fontanería  >  Piezas y herramientas para componentes de fontanería
+2174     | 0.922   | 9        | 242      |    3.7% | Bricolaje  >  Accesorios para herramientas  >  Hojas o cuchillas
+438      | 0.911   | 8        | 564      |    1.4% | Mobiliario  >  Sillas  >  Pufs
+6908     | 0.917   | 8        | 418      |    1.9% | Mobiliario  >  Mobiliario de oficina  >  Cubículos y mesas de trabajo
+977      | 0.935   | 8        | 562      |    1.4% | Material de oficina  >  Artículos de oficina  >  Artículos de escritura y dibujo
+1144     | 0.932   | 8        | 1367     |    0.6% | Equipamiento deportivo  >  Actividades al aire libre  >  Deportes acuáticos y navegación deportiva  >  Natación
+5591     | 0.934   | 8        | 1504     |    0.5% | Economía e industria  >  Equipo de protección para el trabajo  >  Guantes de seguridad
+362      | 0.841   | 8        | 70       |   11.4% | Cámaras y ópticas  >  Cámaras  >  Cámaras de vigilancia
+141      | 0.809   | 8        | 53       |   15.1% | Cámaras y ópticas
+6773     | 0.834   | 8        | 60       |   13.3% | Casa y jardín  >  Accesorios para electrodomésticos  >  Accesorios para calderas y calentadores
+499773   | 0.914   | 8        | 427      |    1.9% | Bricolaje  >  Materiales de construcción  >  Herrajes para ventanas  >  Manivelas para ventanas
+130      | 0.896   | 8        | 149      |    5.4% | Bricolaje  >  Herramientas  >  Escaleras y andamios
+2216     | 0.935   | 8        | 464      |    1.7% | Bricolaje  >  Fontanería  >  Tuberías de fontanería
+216      | 0.921   | 8        | 791      |    1.0% | Arte y ocio  >  Hobbies y artes creativas  >  Coleccionables
+5775     | 0.933   | 8        | 3587     |    0.2% | Alimentación, bebida y tabaco  >  Alimentos  >  Ingredientes de cocina y repostería  >  Sabores y extractos para repostería
+6429     | 0.935   | 7        | 2564     |    0.3% | Salud y belleza  >  Cuidado personal  >  Cuidado capilar  >  Vaporizadores para el cabello y gorros térmicos
+204      | 0.936   | 7        | 5515     |    0.1% | Ropa y accesorios  >  Prendas de vestir  >  Pantalones
+304      | 0.936   | 7        | 633      |    1.1% | Electrónica  >  Accesorios electrónicos  >  Componentes para ordenadores  >  Dispositivos de entrada  >  Ratones y trackballs
+1763     | 0.927   | 7        | 330      |    2.1% | Electrónica  >  Accesorios electrónicos  >  Cables  >  Cables de alimentación
+2832     | 0.927   | 7        | 715      |    1.0% | Casa y jardín  >  Piscina y spa  >  Accesorios para piscinas y jacuzzis
+2425     | 0.940   | 7        | 804      |    0.9% | Casa y jardín  >  Iluminación  >  Bombillas
+2549     | 0.869   | 7        | 95       |    7.4% | Casa y jardín  >  Electrodomésticos  >  Electrodomésticos para cuidado de la ropa  >  Lavadoras
+668      | 0.913   | 7        | 785      |    0.9% | Casa y jardín  >  Cocina y comedor  >  Herramientas y utensilios de cocina
+586      | 0.936   | 7        | 383      |    1.8% | Casa y jardín  >  Accesorios para el baño  >  Toalleros
+123      | 0.935   | 7        | 928      |    0.8% | Bricolaje  >  Materiales de construcción  >  Techo
+1221     | 0.896   | 7        | 182      |    3.8% | Bricolaje  >  Herramientas  >  Taladradores y llaves de impacto
+1235     | 0.927   | 7        | 258      |    2.7% | Bricolaje  >  Herramientas  >  Sierras
+568      | 0.952   | 7        | 2688     |    0.3% | Bebés y niños pequeños  >  Transporte de bebés  >  Cochecitos de bebé
+486      | 0.945   | 6        | 2558     |    0.2% | Salud y belleza  >  Cuidado personal  >  Cuidado capilar
+505820   | 0.909   | 6        | 1148     |    0.5% | Salud y belleza  >  Cuidado de la salud  >  Lociones y geles de conductividad
+5192     | 0.912   | 6        | 420      |    1.4% | Ropa y accesorios  >  Disfraces y accesorios  >  Accesorios para disfraces
+465846   | 0.900   | 6        | 129      |    4.7% | Mobiliario  >  Armarios y almacenamiento  >  Centros de planchado
+923      | 0.928   | 6        | 504      |    1.2% | Material de oficina  >  Clasificación y organización
+2778     | 0.917   | 6        | 616      |    1.0% | Juegos y juguetes  >  Juguetes  >  Accesorios para vehículos de control remoto
+222      | 0.914   | 6        | 176      |    3.4% | Electrónica
+499708   | 0.908   | 6        | 197      |    3.0% | Economía e industria  >  Equipo de protección para el trabajo  >  Arneses de seguridad en el trabajo
+1871     | 0.920   | 6        | 187      |    3.2% | Casa y jardín  >  Protección contra inundaciones, gases e incendios  >  Alarmas contra incendios
+2677     | 0.916   | 6        | 397      |    1.5% | Casa y jardín  >  Productos del hogar  >  Productos para lavado de ropa  >  Tendederos y perchas
+7255     | 0.912   | 6        | 613      |    1.0% | Casa y jardín  >  Productos del hogar  >  Organización y almacenamiento  >  Cajones de almacenaje doméstico
+2882     | 0.914   | 6        | 380      |    1.6% | Casa y jardín  >  Decoración  >  Tratamientos de la ventana  >  Cortinas y visillos
+573      | 0.924   | 6        | 854      |    0.7% | Casa y jardín  >  Decoración  >  Cestas
+3473     | 0.802   | 6        | 37       |   16.2% | Casa y jardín  >  Decoración  >  Cajas de música
+500121   | 0.885   | 6        | 217      |    2.8% | Casa y jardín  >  Decoración  >  Accesorios de fragancias para el hogar
+3809     | 0.933   | 6        | 3139     |    0.2% | Casa y jardín  >  Cocina y comedor  >  Objetos para llevar comida y bebida  >  Botellas de agua
+4789     | 0.853   | 6        | 70       |    8.6% | Bricolaje  >  Suministros eléctricos  >  Alargador eléctrico
+1167     | 0.916   | 6        | 321      |    1.9% | Bricolaje  >  Herramientas
+3944     | 0.938   | 6        | 331      |    1.8% | Bricolaje  >  Accesorios para herramientas  >  Accesorios para taladros y destornilladores
+6001     | 0.920   | 6        | 383      |    1.6% | Arte y ocio  >  Hobbies y artes creativas  >  Instrumentos musicales  >  Instrumentos musicales electrónicos
+2392     | 0.913   | 6        | 610      |    1.0% | Alimentación, bebida y tabaco  >  Alimentos  >  Entremeses y aperitivos  >  Chips
+1529     | 0.929   | 6        | 1037     |    0.6% | Alimentación, bebida y tabaco  >  Alimentos  >  Aliños y especias  >  Hierbas y especias
+500048   | 0.892   | 5        | 176      |    2.8% | Productos para adultos  >  Armas  >  Accesorios y cuidado de armas de fuego  >  Fundas y maletas para armas
+6362     | 0.918   | 5        | 257      |    1.9% | Mobiliario  >  Mobiliario de oficina
+7310     | 0.890   | 5        | 117      |    4.3% | Mobiliario  >  Mobiliario de exterior  >  Cajas de almacenaje para exteriores
+6885     | 0.932   | 5        | 332      |    1.5% | Material de oficina  >  Clasificación y organización  >  Portafolios
+947      | 0.938   | 5        | 732      |    0.7% | Material de oficina  >  Artículos de oficina  >  Grapadoras
+974      | 0.934   | 5        | 343      |    1.5% | Material de oficina  >  Accesorios para envíos  >  Materiales de embalaje
+2928     | 0.927   | 5        | 1535     |    0.3% | Economía e industria  >  Productos médicos  >  Uniformes hospitalarios
+513      | 0.928   | 5        | 625      |    0.8% | Economía e industria  >  Equipo de protección para el trabajo  >  Máscaras protectoras  >  Mascarillas médicas
+630      | 0.878   | 5        | 93       |    5.4% | Casa y jardín  >  Productos del hogar
+7113     | 0.925   | 5        | 483      |    1.0% | Casa y jardín  >  Decoración  >  Jarrones decorativos
+4454     | 0.942   | 5        | 1210     |    0.4% | Casa y jardín  >  Decoración  >  Cojines
+6070     | 0.924   | 5        | 642      |    0.8% | Casa y jardín  >  Cocina y comedor  >  Utensilios para cocinar y para hornear
+2367     | 0.840   | 5        | 25       |   20.0% | Casa y jardín  >  Accesorios para electrodomésticos  >  Accesorios para el aire acondicionado
+6858     | 0.900   | 5        | 383      |    1.3% | Casa y jardín  >  Accesorios para el baño  >  Juegos de accesorios de baño
+499985   | 0.924   | 5        | 171      |    2.9% | Bricolaje  >  Herramientas  >  Sierras  >  Mesas de corte
+1188     | 0.916   | 5        | 212      |    2.4% | Bricolaje  >  Herramientas  >  Lijadoras
+540      | 0.907   | 5        | 184      |    2.7% | Bebés y niños pequeños  >  Protección para el bebé
+414      | 0.936   | 5        | 683      |    0.7% | Alimentación, bebida y tabaco  >  Bebidas  >  Bebidas alcohólicas  >  Cerveza
+5807     | 0.913   | 5        | 685      |    0.7% | Alimentación, bebida y tabaco  >  Alimentos  >  Productos de soja, tofu y vegetarianos
+4947     | 0.920   | 5        | 735      |    0.7% | Alimentación, bebida y tabaco  >  Alimentos  >  Condimentos y salsas  >  Miel
+8237     | 0.942   | 4        | 1145     |    0.3% | Vehículos y recambios  >  Piezas y accesorios para vehículos  >  Almacenamiento y carga de vehículos
+485      | 0.935   | 4        | 669      |    0.6% | Salud y belleza  >  Cuidado personal  >  Productos sanitarios femeninos
+2801     | 0.938   | 4        | 592      |    0.7% | Salud y belleza  >  Cuidado personal  >  Cuidado de los pies  >  Plantillas
+526      | 0.947   | 4        | 2683     |    0.1% | Salud y belleza  >  Cuidado personal  >  Cuidado bucal
+501      | 0.923   | 4        | 248      |    1.6% | Salud y belleza  >  Cuidado de la salud  >  Dispositivos biométricos  >  Termómetros médicos
+211      | 0.906   | 4        | 215      |    1.9% | Ropa y accesorios  >  Prendas de vestir  >  Trajes de baño
+4299     | 0.917   | 4        | 420      |    1.0% | Mobiliario  >  Mobiliario de exterior
+451      | 0.919   | 4        | 164      |    2.4% | Mobiliario  >  Camas y accesorios  >  Cabeceros y pies de cama
+975      | 0.926   | 4        | 389      |    1.0% | Material de oficina  >  Accesorios para envíos  >  Cinta de embalaje
+100      | 0.936   | 4        | 2027     |    0.2% | Maletas y bolsos de viaje  >  Mochilas
+3266     | 0.904   | 4        | 119      |    3.4% | Equipamiento deportivo  >  Actividades al aire libre  >  Escalada  >  Dispositivos de protección de escalada
+1025     | 0.944   | 4        | 2639     |    0.2% | Equipamiento deportivo  >  Actividades al aire libre  >  Ciclismo
+499961   | 0.902   | 4        | 134      |    3.0% | Economía e industria  >  Equipo de protección para el trabajo  >  Rodilleras de seguridad
+364      | 0.903   | 4        | 90       |    4.4% | Casa y jardín  >  Seguridad empresarial y del hogar  >  Cámaras y monitores de seguridad
+636      | 0.921   | 4        | 302      |    1.3% | Casa y jardín  >  Productos del hogar  >  Organización y almacenamiento
+2865     | 0.928   | 4        | 609      |    0.7% | Casa y jardín  >  Productos del hogar  >  Control de plagas  >  Repelentes
+505285   | 0.822   | 4        | 35       |   11.4% | Casa y jardín  >  Plantas  >  Kits para plantar flores y plantas
+6265     | 0.928   | 4        | 267      |    1.5% | Casa y jardín  >  Decoración  >  Flora artificial
+4971     | 0.925   | 4        | 783      |    0.5% | Casa y jardín  >  Accesorios para el baño  >  Dispensadores de jabón y loción
+128      | 0.912   | 4        | 155      |    2.6% | Bricolaje  >  Vallas de jardín
+505318   | 0.914   | 4        | 275      |    1.5% | Bricolaje  >  Suministros eléctricos  >  Reguladores y transformadores de voltaje
+503729   | 0.912   | 4        | 83       |    4.8% | Bricolaje  >  Suministros eléctricos  >  Conectores y terminales de cables
+499949   | 0.927   | 4        | 440      |    0.9% | Bricolaje  >  Materiales de construcción  >  Pasamanos y barandillas
+505300   | 0.925   | 4        | 85       |    4.7% | Bricolaje  >  Materiales de construcción  >  Componentes de impermeabilización y burletes
+503730   | 0.909   | 4        | 120      |    3.3% | Bricolaje  >  Llaves y cerrojos  >  Candados y pestillos
+2835     | 0.931   | 4        | 290      |    1.4% | Bricolaje  >  Herramientas  >  Abrazaderas y tornillos
+2277     | 0.901   | 4        | 108      |    3.7% | Bricolaje  >  Consumibles para construcción  >  Productos químicos
+6549     | 0.910   | 4        | 66       |    6.1% | Bricolaje  >  Accesorios para herramientas  >  Accesorios para sierras
+4988     | 0.912   | 4        | 274      |    1.5% | Bricolaje  >  Accesorios de bricolaje  >  Lonas impermeables
+1816     | 0.899   | 4        | 70       |    5.7% | Bricolaje  >  Accesorios de bricolaje  >  Filtros y pantallas
+543      | 0.897   | 4        | 73       |    5.5% | Bebés y niños pequeños  >  Protección para el bebé  >  Protectores y cierres de seguridad
+517      | 0.909   | 3        | 261      |    1.1% | Salud y belleza  >  Cuidado de la salud  >  Productos para la incontinencia
+178      | 0.937   | 3        | 895      |    0.3% | Ropa y accesorios  >  Complementos  >  Gafas de sol
+5040     | 0.912   | 3        | 125      |    2.4% | Multimedia  >  Manuales de productos  >  Manuales de aparatos de cocina
+784      | 0.919   | 3        | 327      |    0.9% | Multimedia  >  Libros
+559      | 0.940   | 3        | 640      |    0.5% | Mobiliario  >  Mobiliario para bebés y niños pequeños  >  Tronas y alzadores
+500061   | 0.905   | 3        | 403      |    0.7% | Mobiliario  >  Mobiliario de oficina  >  Muebles de oficina
+6828     | 0.937   | 3        | 1080     |    0.3% | Mobiliario  >  Mobiliario de exterior  >  Asientos de exterior  >  Sillas de exterior
+2696     | 0.936   | 3        | 289      |    1.0% | Mobiliario  >  Camas y accesorios  >  Colchones
+505764   | 0.925   | 3        | 424      |    0.7% | Mobiliario  >  Camas y accesorios  >  Camas y somieres
+4205     | 0.889   | 3        | 95       |    3.2% | Mobiliario  >  Armarios y almacenamiento  >  Baúles de almacenamiento
+956      | 0.934   | 3        | 554      |    0.5% | Material de oficina  >  Productos generales  >  Productos de papel
+934      | 0.935   | 3        | 400      |    0.8% | Material de oficina  >  Productos generales  >  Cinta adhesiva de oficina
+270      | 0.925   | 3        | 100      |    3.0% | Electrónica  >  Comunicación  >  Telefonía
+5865     | 0.912   | 3        | 114      |    2.6% | Economía e industria  >  Publicidad y márketing  >  Expositores para ferias
+114      | 0.893   | 3        | 80       |    3.8% | Economía e industria  >  Construcción
+5894     | 0.928   | 3        | 351      |    0.9% | Economía e industria  >  Avisos  >  Señales de emergencia y salida
+1306     | 0.683   | 3        | 9        |   33.3% | Casa y jardín  >  Protección contra inundaciones, gases e incendios  >  Detectores de fugas
+623      | 0.924   | 3        | 399      |    0.8% | Casa y jardín  >  Productos del hogar  >  Productos de limpieza para el hogar
+637      | 0.938   | 3        | 795      |    0.4% | Casa y jardín  >  Productos del hogar  >  Contenedores de residuos  >  Cubos de la basura y papeleras
+2810     | 0.942   | 3        | 441      |    0.7% | Casa y jardín  >  Piscina y spa  >  Piscinas
+4453     | 0.925   | 3        | 340      |    0.9% | Casa y jardín  >  Decoración  >  Cojines para sillas y sofás
+7206     | 0.892   | 3        | 57       |    5.3% | Casa y jardín  >  Decoración  >  Campanas decorativas
+667      | 0.943   | 3        | 748      |    0.4% | Casa y jardín  >  Cocina y comedor  >  Recipiente para comida  >  Fiambreras
+3573     | 0.906   | 3        | 38       |    7.9% | Casa y jardín  >  Accesorios para electrodomésticos  >  Accesorios para el aire acondicionado  >  Filtros de aire acondicionado
+574      | 0.915   | 3        | 191      |    1.6% | Casa y jardín  >  Accesorios para el baño
+2826     | 0.948   | 3        | 2798     |    0.1% | Bricolaje  >  Materiales de construcción  >  Suelos y moquetas
+2456     | 0.941   | 3        | 371      |    0.8% | Bricolaje  >  Herramientas  >  Vibradores industriales
+1184     | 0.928   | 3        | 313      |    1.0% | Bricolaje  >  Herramientas  >  Roscas
+1225     | 0.902   | 3        | 48       |    6.2% | Bricolaje  >  Herramientas  >  Pulidoras
+1632     | 0.924   | 3        | 153      |    2.0% | Bricolaje  >  Herramientas  >  Llaves inglesas
+4672     | 0.884   | 3        | 49       |    6.1% | Bricolaje  >  Herramientas  >  Cepillos para suelos de cemento
+1187     | 0.918   | 3        | 108      |    2.8% | Bricolaje  >  Herramientas  >  Cepillos carpinteros
+126      | 0.912   | 3        | 83       |    3.6% | Bricolaje  >  Herramientas  >  Carretillas de carga
+1753     | 0.922   | 3        | 119      |    2.5% | Bricolaje  >  Consumibles para construcción  >  Lubricantes
+3031     | 0.882   | 3        | 47       |    6.4% | Bricolaje  >  Consumibles para construcción  >  Consumibles para albañilería  >  Ladrillos y bloques de hormigón
+500100   | 0.888   | 3        | 19       |   15.8% | Bricolaje  >  Bombas  >  Sistemas de bombeo
+500098   | 0.915   | 3        | 32       |    9.4% | Bricolaje  >  Bombas  >  Bombas para piscinas, fuentes y estanques
+547      | 0.950   | 3        | 1800     |    0.2% | Bebés y niños pequeños  >  Transporte de bebés  >  Sillas de coche
+2764     | 0.938   | 3        | 556      |    0.5% | Bebés y niños pequeños  >  Transporte de bebés
+6290     | 0.936   | 3        | 733      |    0.4% | Bebés y niños pequeños  >  Salud del bebé  >  Kits de salud y aseo del bebé
+566      | 0.949   | 3        | 1218     |    0.2% | Bebés y niños pequeños  >  Salud del bebé  >  Chupetes y mordedores
+4386     | 0.946   | 3        | 3620     |    0.1% | Bebés y niños pequeños  >  Accesorios para el transporte de bebés
+5723     | 0.931   | 3        | 799      |    0.4% | Alimentación, bebida y tabaco  >  Bebidas  >  Bebidas isotónicas y energéticas
+5663     | 0.927   | 2        | 267      |    0.7% | Salud y belleza  >  Cuidado personal  >  Masaje y relajación
+8082     | 0.917   | 2        | 108      |    1.9% | Salud y belleza  >  Cuidado de la salud  >  Vasos para muestras
+505293   | 0.903   | 2        | 84       |    2.4% | Salud y belleza  >  Cuidado de la salud  >  Pruebas médicas
+509      | 0.923   | 2        | 490      |    0.4% | Salud y belleza  >  Cuidado de la salud  >  Primeros auxilios  >  Esparadrapos y vendas
+518      | 0.931   | 2        | 148      |    1.4% | Salud y belleza  >  Cuidado de la salud  >  Medicinas y medicamentos
+4551     | 0.935   | 2        | 776      |    0.3% | Salud y belleza  >  Cuidado de la salud  >  Cuidado respiratorio
+2306     | 0.928   | 2        | 1754     |    0.1% | Ropa y accesorios  >  Prendas de vestir  >  Uniformes
+1604     | 0.917   | 2        | 135      |    1.5% | Ropa y accesorios  >  Prendas de vestir
+1        | 0.919   | 2        | 184      |    1.1% | Productos para mascotas y animales
+3666     | 0.914   | 2        | 74       |    2.7% | Productos para adultos  >  Armas  >  Espadas
+783      | 0.812   | 2        | 14       |   14.3% | Multimedia
+5886     | 0.939   | 2        | 1141     |    0.2% | Mobiliario  >  Sillas  >  Sillas para salón comedor y cocina
+6393     | 0.941   | 2        | 1123     |    0.2% | Mobiliario  >  Mobiliario para bebés y niños pequeños  >  Cunas y moisés
+5938     | 0.930   | 2        | 253      |    0.8% | Mobiliario  >  Armarios y almacenamiento  >  Taquillas y armarios de almacenamiento
+5578     | 0.935   | 2        | 63       |    3.2% | Mobiliario  >  Armarios y almacenamiento  >  Botelleros
+503766   | 0.924   | 2        | 71       |    2.8% | Mobiliario  >  Accesorios para mobiliario de oficina  >  Accesorios y productos para escritorios
+960      | 0.948   | 2        | 439      |    0.5% | Material de oficina  >  Productos generales  >  Etiquetas y etiquetas adhesivas
+939      | 0.942   | 2        | 473      |    0.4% | Material de oficina  >  Clasificación y organización  >  Organizadores de escritorio
+6919     | 0.880   | 2        | 46       |    4.3% | Maletas y bolsos de viaje  >  Accesorios de equipaje  >  Botellas y contenedores de viaje
+3584     | 0.932   | 2        | 2884     |    0.1% | Juegos y juguetes  >  Juguetes  >  Muñecas, parques infantiles y figuras de juguete  >  Accesorios para muñecas y muñecos de acción
+2724     | 0.930   | 2        | 812      |    0.2% | Juegos y juguetes  >  Juguetes  >  Juguetes para montarse  >  Vehículos a pedales o para empujar
+3793     | 0.896   | 2        | 93       |    2.2% | Juegos y juguetes  >  Juegos
+3603     | 0.948   | 2        | 1927     |    0.1% | Equipamiento deportivo  >  Actividades al aire libre  >  Pesca  >  Artes de pesca  >  Cebos de pesca
+1550     | 0.937   | 2        | 91       |    2.2% | Electrónica  >  Electrónuca náutica  >  Ecosondas
+1718     | 0.899   | 2        | 50       |    4.0% | Electrónica  >  Accesorios electrónicos  >  Antenas
+258      | 0.926   | 2        | 289      |    0.7% | Electrónica  >  Accesorios electrónicos  >  Adaptadores
+1837     | 0.901   | 2        | 229      |    0.9% | Economía e industria  >  Venta al por menor  >  Bolsas de plástico y papel
+499858   | 0.899   | 2        | 148      |    1.4% | Economía e industria  >  Productos médicos  >  Equipo médico  >  Camillas médicas con y sin ruedas
+4285     | 0.943   | 2        | 286      |    0.7% | Economía e industria  >  Piercings y tatuajes
+2723     | 0.939   | 2        | 432      |    0.5% | Economía e industria  >  Equipo de protección para el trabajo  >  Cascos
+5831     | 0.934   | 2        | 273      |    0.7% | Economía e industria  >  Almacenamiento industrial  >  Contenedores para transporte
+4143     | 0.942   | 2        | 499      |    0.4% | Casa y jardín  >  Ropa de casa  >  Mantelería  >  Manteles
+6897     | 0.892   | 2        | 71       |    2.8% | Casa y jardín  >  Preparación en caso de emergencias  >  Mantas de emergencia
+985      | 0.945   | 2        | 425      |    0.5% | Casa y jardín  >  Plantas
+7400     | 0.921   | 2        | 144      |    1.4% | Casa y jardín  >  Iluminación  >  Iluminación para senderos de jardín
+619      | 0.935   | 2        | 173      |    1.2% | Casa y jardín  >  Electrodomésticos  >  Aspiradoras
+6936     | 0.935   | 2        | 304      |    0.7% | Casa y jardín  >  Decoración  >  Flores secas
+595      | 0.934   | 2        | 370      |    0.5% | Casa y jardín  >  Decoración  >  Espejos
+6532     | 0.943   | 2        | 893      |    0.2% | Casa y jardín  >  Decoración  >  Decoraciones festivas y estacionales  >  Arreglos ornamentales festivos
+6547     | 0.902   | 2        | 139      |    1.4% | Casa y jardín  >  Decoración  >  Adornos para césped y esculturas para jardín
+5141     | 0.916   | 2        | 160      |    1.2% | Casa y jardín  >  Accesorios para el baño  >  Secadores de manos
+1519     | 0.874   | 2        | 36       |    5.6% | Bricolaje  >  Ventilación y calefacción  >  Controles de climatización
+4715     | 0.895   | 2        | 62       |    3.2% | Bricolaje  >  Suministros eléctricos  >  Kits de energía solar
+8270     | 0.880   | 2        | 30       |    6.7% | Bricolaje  >  Materiales de construcción  >  Techo  >  Tejas y baldosas para techo
+505315   | 0.933   | 2        | 120      |    1.7% | Bricolaje  >  Herramientas  >  Perforadoras y punzones
+499887   | 0.916   | 2        | 27       |    7.4% | Bricolaje  >  Herramientas  >  Mezcladoras de mano motorizadas
+2208     | 0.921   | 2        | 45       |    4.4% | Bricolaje  >  Herramientas  >  Martillos y mazos  >  Martillos
+4919     | 0.921   | 2        | 43       |    4.7% | Bricolaje  >  Herramientas  >  Juegos de herramientas
+2077     | 0.939   | 2        | 118      |    1.7% | Bricolaje  >  Herramientas  >  Herramientas de pintura
+1219     | 0.891   | 2        | 38       |    5.3% | Bricolaje  >  Herramientas  >  Esmeriladoras
+1206     | 0.941   | 2        | 239      |    0.8% | Bricolaje  >  Herramientas  >  Clavadoras y grapadoras
+2212     | 0.932   | 2        | 267      |    0.7% | Bricolaje  >  Consumibles para construcción  >  Cinta para bricolaje
+503739   | 0.854   | 2        | 27       |    7.4% | Bricolaje  >  Consumibles para construcción
+5526     | 0.933   | 2        | 131      |    1.5% | Bricolaje  >  Accesorios para herramientas  >  Accesorios para sensores y herramientas de medición
+3650     | 0.932   | 2        | 146      |    1.4% | Bricolaje  >  Accesorios para herramientas
+561      | 0.931   | 2        | 182      |    1.1% | Bebés y niños pequeños  >  Lactancia y alimentación
+2847     | 0.930   | 2        | 1632     |    0.1% | Bebés y niños pequeños  >  Juguetes y actividades para bebés
+537      | 0.923   | 2        | 144      |    1.4% | Bebés y niños pequeños
+2559     | 0.925   | 2        | 1022     |    0.2% | Arte y ocio  >  Fiestas y celebraciones  >  Regalos
+2660     | 0.937   | 2        | 219      |    0.9% | Alimentación, bebida y tabaco  >  Alimentos  >  Ingredientes de cocina y repostería
+524      | 0.936   | 1        | 95       |    1.1% | Salud y belleza  >  Cuidado personal  >  Cuidado visual  >  Gafas
+515      | 0.940   | 1        | 506      |    0.2% | Salud y belleza  >  Cuidado personal  >  Cuidado de los pies
+7542     | 0.948   | 1        | 78       |    1.3% | Salud y belleza  >  Cuidado personal  >  Cuidado de los oídos  >  Dispensadores de tapones para los oídos
+4775     | 0.947   | 1        | 978      |    0.1% | Salud y belleza  >  Cuidado personal  >  Cuidado bucal  >  Accesorios para cepillos de dientes
+4076     | 0.929   | 1        | 255      |    0.4% | Salud y belleza  >  Cuidado personal  >  Ayudas para conciliar el sueño
+2915     | 0.931   | 1        | 348      |    0.3% | Salud y belleza  >  Cuidado personal
+505294   | 0.891   | 1        | 15       |    6.7% | Salud y belleza  >  Cuidado de la salud  >  Pruebas médicas  >  Pruebas de infección del tracto urinario
+519      | 0.923   | 1        | 338      |    0.3% | Salud y belleza  >  Cuidado de la salud  >  Movilidad y accesibilidad
+8541     | 0.930   | 1        | 304      |    0.3% | Salud y belleza  >  Cuidado de la salud  >  Equipos de fisioterapia  >  Estimuladores musculares eléctricos
+494      | 0.930   | 1        | 61       |    1.6% | Salud y belleza  >  Cuidado de la salud  >  Dispositivos biométricos
+7220     | 0.922   | 1        | 45       |    2.2% | Salud y belleza  >  Cuidado de la salud  >  Cuñas
+8105     | 0.918   | 1        | 34       |    2.9% | Salud y belleza  >  Cuidado de la salud  >  Artículos de compresión para muñones
+1581     | 0.918   | 1        | 119      |    0.8% | Ropa y accesorios  >  Prendas de vestir  >  Faldas
+502987   | 0.911   | 1        | 80       |    1.2% | Ropa y accesorios  >  Complementos  >  Fajas de embarazo y cinturones de maternidad
+166      | 0.928   | 1        | 119      |    0.8% | Ropa y accesorios
+7319     | 0.872   | 1        | 17       |    5.9% | Productos para mascotas y animales  >  Productos para mascotas  >  Productos de higiene para mascotas  >  Herramientas de manicura para mascotas
+2214     | 0.932   | 1        | 75       |    1.3% | Productos para adultos  >  Armas  >  Accesorios y cuidado de armas de fuego
+6499     | 0.949   | 1        | 494      |    0.2% | Mobiliario  >  Sillas  >  Sillones, sillones reclinables y sillones extensibles
+6800     | 0.936   | 1        | 366      |    0.3% | Mobiliario  >  Sillas  >  Sillones para videojuegos
+7068     | 0.908   | 1        | 61       |    1.6% | Mobiliario  >  Mobiliario para bebés y niños pequeños  >  Accesorios para moisés y cunas
+2045     | 0.948   | 1        | 4045     |    0.0% | Mobiliario  >  Mobiliario de oficina  >  Sillas de oficina
+6367     | 0.931   | 1        | 110      |    0.9% | Mobiliario  >  Mobiliario de exterior  >  Conjuntos de mobiliario de exterior
+6368     | 0.945   | 1        | 285      |    0.4% | Mobiliario  >  Mobiliario de exterior  >  Asientos de exterior
+6372     | 0.930   | 1        | 152      |    0.7% | Mobiliario  >  Estanterías  >  Estantes y estanterías
+442      | 0.932   | 1        | 116      |    0.9% | Mobiliario  >  Carros e islas
+448      | 0.945   | 1        | 307      |    0.3% | Mobiliario  >  Armarios y almacenamiento  >  Vitrinas
+463      | 0.926   | 1        | 129      |    0.8% | Mobiliario  >  Armarios y almacenamiento  >  Armarios archivadores
+6356     | 0.917   | 1        | 121      |    0.8% | Mobiliario  >  Armarios y almacenamiento
+6909     | 0.915   | 1        | 65       |    1.5% | Mobiliario  >  Accesorios para mobiliario de oficina  >  Accesorios para cubículos y mesas de trabajo
+948      | 0.937   | 1        | 281      |    0.4% | Material de oficina  >  Productos generales  >  Grapas
+4086     | 0.952   | 1        | 812      |    0.1% | Material de oficina  >  Clasificación y organización  >  Materiales de encuadernación  >  Accesorios de encuadernación
+3062     | 0.914   | 1        | 94       |    1.1% | Material de oficina  >  Clasificación y organización  >  Estuches
+925      | 0.949   | 1        | 477      |    0.2% | Material de oficina  >  Clasificación y organización  >  Cajas de archivo
+968      | 0.924   | 1        | 70       |    1.4% | Material de oficina  >  Accesorios para presentaciones  >  Caballetes de oficina
+101      | 0.922   | 1        | 202      |    0.5% | Maletas y bolsos de viaje  >  Maletines
+107      | 0.944   | 1        | 2596     |    0.0% | Maletas y bolsos de viaje  >  Maletas
+106      | 0.922   | 1        | 250      |    0.4% | Maletas y bolsos de viaje  >  Bandoleras grandes
+3551     | 0.946   | 1        | 460      |    0.2% | Juegos y juguetes  >  Juguetes  >  Vehículos para jugar  >  Coches de juguete
+3215     | 0.927   | 1        | 245      |    0.4% | Juegos y juguetes  >  Juguetes  >  Juguetes de deporte  >  Juguetes de actividad física  >  Hula hoops
+1254     | 0.941   | 1        | 1222     |    0.1% | Juegos y juguetes  >  Juguetes  >  Juguetes de construcción
+4352     | 0.929   | 1        | 284      |    0.4% | Juegos y juguetes  >  Juguetes  >  Juguetes de actividad
+1253     | 0.923   | 1        | 647      |    0.2% | Juegos y juguetes  >  Juguetes
+4554     | 0.932   | 1        | 89       |    1.1% | Juegos y juguetes  >  Juegos  >  Juegos electrónicos portátiles
+1246     | 0.931   | 1        | 1722     |    0.1% | Juegos y juguetes  >  Juegos  >  Juegos de mesa
+1247     | 0.934   | 1        | 306      |    0.3% | Juegos y juguetes  >  Juegos  >  Juegos de cartas
+6269     | 0.926   | 1        | 172      |    0.6% | Juegos y juguetes  >  Estructuras para juegos al aire libre  >  Accesorios para columpios y estructuras de juegos
+1113     | 0.943   | 1        | 347      |    0.3% | Equipamiento deportivo  >  Equipamiento para atletismo  >  Fútbol  >  Porterías de fútbol
+499719   | 0.908   | 1        | 73       |    1.4% | Equipamiento deportivo  >  Equipamiento para atletismo  >  Boxeo y artes marciales
+3334     | 0.940   | 1        | 200      |    0.5% | Equipamiento deportivo  >  Actividades al aire libre  >  Pesca
+499761   | 0.933   | 1        | 185      |    0.5% | Equipamiento deportivo  >  Actividades al aire libre  >  Patinaje sobre ruedas y en línea
+499882   | 0.905   | 1        | 477      |    0.2% | Equipamiento deportivo  >  Actividades al aire libre  >  Juegos al aire libre  >  Tetherball  >  Postes para espirobol
+7120     | 0.860   | 1        | 13       |    7.7% | Elementos religiosos y ceremoniales  >  Artículos religiosos  >  Altares religiosos
+5456     | 0.911   | 1        | 78       |    1.3% | Elementos religiosos y ceremoniales  >  Artículos para ceremonias nupciales  >  Cestas para flores
+396      | 0.940   | 1        | 192      |    0.5% | Electrónica  >  Vídeo  >  Proyectores
+339      | 0.939   | 1        | 122      |    0.8% | Electrónica  >  Sistemas de navegación GPS
+3949     | 0.794   | 1        | 9        |   11.1% | Electrónica  >  Componentes y placas de circuitos  >  Semiconductores  >  Microcontroladores
+3328     | 0.942   | 1        | 237      |    0.4% | Electrónica  >  Accesorios electrónicos  >  Cableado
+1993     | 0.941   | 1        | 346      |    0.3% | Electrónica  >  Accesorios electrónicos  >  Accesorios informáticos  >  Alfombrillas de ratón
+7240     | 0.926   | 1        | 64       |    1.6% | Economía e industria  >  Peluquería y cosmética
+2227     | 0.928   | 1        | 386      |    0.3% | Economía e industria  >  Equipo de protección para el trabajo  >  Gafas de sol protectoras
+6764     | 0.810   | 1        | 8        |   12.5% | Economía e industria  >  Equipo de protección para el trabajo  >  Delantales de protección
+1548     | 0.914   | 1        | 62       |    1.6% | Cámaras y ópticas  >  Fotografía  >  Iluminación y estudio  >  Fotómetros
+601      | 0.842   | 1        | 23       |    4.3% | Casa y jardín  >  Ropa de casa  >  Mantelería
+1434     | 0.938   | 1        | 182      |    0.5% | Casa y jardín  >  Protección contra inundaciones, gases e incendios  >  Extintores
+629      | 0.918   | 1        | 126      |    0.8% | Casa y jardín  >  Productos del hogar  >  Productos de papel para el hogar  >  Papel higiénico
+2374     | 0.928   | 1        | 58       |    1.7% | Casa y jardín  >  Productos del hogar  >  Bolsas de basura
+2802     | 0.948   | 1        | 1500     |    0.1% | Casa y jardín  >  Plantas  >  Semillas
+1546     | 0.936   | 1        | 150      |    0.7% | Casa y jardín  >  Iluminación  >  Focos y reflectores
+704      | 0.937   | 1        | 294      |    0.3% | Casa y jardín  >  Decoración  >  Piedras de jardín y caminos de piedras
+11       | 0.939   | 1        | 677      |    0.1% | Casa y jardín  >  Decoración  >  Obras de arte  >  Figuras, esculturas y estatuas
+596      | 0.938   | 1        | 303      |    0.3% | Casa y jardín  >  Decoración  >  Decoraciones festivas y estacionales
+6457     | 0.939   | 1        | 308      |    0.3% | Casa y jardín  >  Decoración  >  Boles decorativos
+598      | 0.949   | 1        | 718      |    0.1% | Casa y jardín  >  Decoración  >  Alfombras
+3221     | 0.934   | 1        | 469      |    0.2% | Casa y jardín  >  Decoración  >  Adornos de pared
+651      | 0.918   | 1        | 145      |    0.7% | Casa y jardín  >  Cocina y comedor  >  Utensilios para bares  >  Cocteleras y accesorios
+672      | 0.941   | 1        | 627      |    0.2% | Casa y jardín  >  Cocina y comedor  >  Utensilios de mesa
+2626     | 0.937   | 1        | 403      |    0.2% | Casa y jardín  >  Cocina y comedor  >  Recipiente para comida
+730      | 0.939   | 1        | 213      |    0.5% | Casa y jardín  >  Cocina y comedor  >  Electrodomésticos de cocina
+6478     | 0.927   | 1        | 376      |    0.3% | Casa y jardín  >  Cocina y comedor  >  Accesorios para el almacenamiento de comida
+1530     | 0.902   | 1        | 26       |    3.8% | Casa y jardín  >  Accesorios para hornos de leña y chimeneas  >  Herramientas para chimeneas
+3410     | 0.944   | 1        | 59       |    1.7% | Casa y jardín  >  Accesorios para electrodomésticos  >  Accesorios para purificadores de aire
+584      | 0.931   | 1        | 164      |    0.6% | Casa y jardín  >  Accesorios para el baño  >  Portarrollos
+2418     | 0.916   | 1        | 86       |    1.2% | Casa y jardín  >  Accesorios para el baño  >  Botiquines
+1962     | 0.912   | 1        | 46       |    2.2% | Casa y jardín  >  Accesorios para el baño  >  Barras de ducha
+7447     | 0.863   | 1        | 18       |    5.6% | Casa y jardín  >  Accesorios de iluminación  >  Soportes para farolas
+1218     | 0.927   | 1        | 66       |    1.5% | Bricolaje  >  Suministros eléctricos  >  Generadores
+6833     | 0.869   | 1        | 17       |    5.9% | Bricolaje  >  Suministros eléctricos  >  Controles y sensores eléctricos
+503776   | 0.870   | 1        | 5        |   20.0% | Bricolaje  >  Materiales de construcción  >  Pladur
+125      | 0.921   | 1        | 241      |    0.4% | Bricolaje  >  Materiales de construcción  >  Madera
+7556     | 0.912   | 1        | 188      |    0.5% | Bricolaje  >  Herramientas  >  Pistolas de engrase
+338      | 0.937   | 1        | 280      |    0.4% | Bricolaje  >  Herramientas  >  Linternas
+1923     | 0.937   | 1        | 73       |    1.4% | Bricolaje  >  Herramientas  >  Limadoras
+5592     | 0.920   | 1        | 22       |    4.5% | Bricolaje  >  Herramientas  >  Iluminación de trabajo
+1832     | 0.894   | 1        | 23       |    4.3% | Bricolaje  >  Herramientas  >  Herramientas para marcar
+1699     | 0.940   | 1        | 216      |    0.5% | Bricolaje  >  Herramientas  >  Herramientas de pintura  >  Esponjas
+2305     | 0.935   | 1        | 85       |    1.2% | Bricolaje  >  Herramientas  >  Herramientas de albañilería  >  Hormigoneras
+7562     | 0.932   | 1        | 96       |    1.0% | Bricolaje  >  Herramientas  >  Cortadores  >  Tenazas
+503744   | 0.937   | 1        | 160      |    0.6% | Bricolaje  >  Consumibles para construcción  >  Capas protectoras y selladores
+500102   | 0.870   | 1        | 20       |    5.0% | Bricolaje  >  Bombas  >  Bombas para lodos, aguas residuales y efluentes
+3281     | 0.933   | 1        | 74       |    1.4% | Bricolaje  >  Accesorios para herramientas  >  Accesorios para soldador
+503770   | 0.904   | 1        | 38       |    2.6% | Bricolaje  >  Accesorios de bricolaje  >  Ganchos, hebillas y cierres  >  Ganchos de grúa, abrazaderas y grilletes
+503773   | 0.928   | 1        | 58       |    1.7% | Bricolaje  >  Accesorios de bricolaje  >  Ganchos, hebillas y cierres
+5253     | 0.734   | 1        | 5        |   20.0% | Bebés y niños pequeños  >  Salud del bebé  >  Aspiradores nasales
+5252     | 0.920   | 1        | 144      |    0.7% | Bebés y niños pequeños  >  Salud del bebé
+6899     | 0.939   | 1        | 536      |    0.2% | Bebés y niños pequeños  >  Sacos y mantas para bebés
+2949     | 0.899   | 1        | 28       |    3.6% | Bebés y niños pequeños  >  Pañales y cuidado del bebé  >  Tratamientos para la dermatitis
+548      | 0.908   | 1        | 30       |    3.3% | Bebés y niños pequeños  >  Pañales y cuidado del bebé
+562      | 0.931   | 1        | 196      |    0.5% | Bebés y niños pequeños  >  Lactancia y alimentación  >  Comida para bebés y niños
+7360     | 0.942   | 1        | 130      |    0.8% | Bebés y niños pequeños  >  Juguetes y actividades para bebés  >  Mordedores para bebés
+7198     | 0.926   | 1        | 288      |    0.3% | Bebés y niños pequeños  >  Juguetes y actividades para bebés  >  Juguetes de actividades para bebés
+1243     | 0.910   | 1        | 67       |    1.5% | Bebés y niños pequeños  >  Juguetes y actividades para bebés  >  Alfombras de actividades y gimnasios
+8537     | 0.950   | 1        | 1013     |    0.1% | Bebés y niños pequeños  >  Accesorios para el transporte de bebés  >  Mantas y sacos para el transporte de bebés
+4730     | 0.927   | 1        | 283      |    0.4% | Arte y ocio  >  Fiestas y celebraciones  >  Productos para fiestas  >  Velas de cumpleaños
+1868     | 0.941   | 1        | 160      |    0.6% | Alimentación, bebida y tabaco  >  Bebidas  >  Café
+2194     | 0.941   | 1        | 1417     |    0.1% | Alimentación, bebida y tabaco  >  Alimentos  >  Panadería  >  Barras de postres y pasteles
+4748     | 0.947   | 1        | 927      |    0.1% | Alimentación, bebida y tabaco  >  Alimentos  >  Bombones y chocolatinas

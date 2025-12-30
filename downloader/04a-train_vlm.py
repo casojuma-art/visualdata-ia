@@ -6,7 +6,8 @@ from peft import LoraConfig, get_peft_model
 
 # CONFIGURACIÓN (Node 211 - RTX 5090)
 MODEL_ID = "google/paligemma-3b-pt-224" # Ejemplo de VLM ligero y potente
-DATASET_PATH = "/lab/visualdata-ia/data_preparada/dataset_vlm_train.jsonl"
+#DATASET_PATH = "/lab/visualdata-ia/data_preparada/dataset_vlm_train.jsonl"
+DATASET_PATH = "/lab/visualdata-ia/metadata/dataset_vlm_final.jsonl"
 OUTPUT_DIR = "/lab/visualdata-ia/modelos/seestocks-vlm-v1"
 
 def train():
