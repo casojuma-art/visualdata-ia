@@ -10,8 +10,13 @@ $ cd /lab/developer/docker/visualdata-ia
 
 # --- PASO PREVIO: ARRANCAR SERVIDOR LLM (RTX 5090) ---
 
-docker rm -f vllm-server && docker run -d --name vllm-server   --runtime nvidia   --gpus all   -p 8000:8000   --ipc=host   -e HF_TOKEN="tokenborrado"   -v ~/.cache/huggingface:/root/.cache/huggingface   vllm/vllm-openai:latest   --model meta-llama/Llama-3.1-8B-Instruct   --dtype bfloat16   --max-model-len 8192   --gpu-memory-utilization 0.9
+para 03b-mastar_curator
 
+docker rm -f vllm-server || true && docker run -d --name vllm-server --runtime nvidia --gpus all -p 8000:8000 --ipc=host -e HF_TOKEN=mitoken -v ~/.cache/huggingface:/root/.cache/huggingface vllm/vllm-openai:latest --model hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4 --quantization awq --dtype auto --max-model-len 4096 --gpu-memory-utilization 0.95
+
+
+para la fase final
+docker run -d --name vllm-server --runtime nvidia --gpus all -p 8000:8000 --ipc=host -e HF_TOKEN=mitoken -v ~/.cache/huggingface:/root/.cache/huggingface vllm/vllm-openai:latest --model hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4 --quantization awq --dtype auto --max-model-len 8192 --gpu-memory-utilization 0.9
 
 
 Fase 00 - Ejecutar Descarga de Imágenes:
@@ -25,6 +30,10 @@ docker exec -it vi-downloader python 01-simplifica.py
 
 
 Fase 02 - Ejecutar Validación Visual (IA):
+caso@211:/lab/developer/docker/visual-validator-api$ docker exec -it vi-downloader python 02-validador_imagenes.py
+para ver las pendientes: while true; do docker exec -it vi-downloader sqlite3 /lab/visualdata-ia/db/registry.db "SELECT is_valid, COUNT(*) FROM downloads GROUP BY is_valid;"; sleep 10; done
+
+
 docker exec -it vi-downloader python 02-validador_imagenes.py 
 
 Fase 03a - Preparación de Ingesta Masiva:
@@ -32,8 +41,15 @@ docker exec -it vi-downloader python 03a-procesar_ingesta.py
 (Verifica imágenes físicas y genera dataset CSV para entrenamiento)
 
 Fase 03b - Curación de Texto (RTX 5090):
-docker exec -it vi-downloader python 03a-text_curator.py
-(Limpia publicidad y neutraliza textos para marca blanca usando vLLM)
+resumen: Continuous Batching(con CUDA Graphs y FlashAttention) + cambiamos requests por vLLM. por eso se ejecuta en contenedor independiente vi-curator por dependencias
+tmux new -s curador
+docker exec -it vi-curator bash
+cd /app
+python 03b-master_curator_v10_fast.py     #curar categoria, texto limpio
+
+
+docker exec -it vi-curator python /app/03c-master_curator_atributos_fast.py #curar atributos
+
 
 Fase 03c - La Universidad (Dataset Builder):
 $ docker exec -it vi-downloader python 03c-dataset_builder.py

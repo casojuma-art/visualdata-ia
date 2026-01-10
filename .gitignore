@@ -7,3 +7,4 @@ __pycache__/
 *.csv
 *.xlsx
 reusa-clasifica/datos_sinteticos_*.csv
+.env

@@ -17,9 +17,12 @@ DB_PATH = "/lab/visualdata-ia/db/registry.db"
 IMG_BASE_DIR = "/lab/visualdata-ia/imagenes_in"
 #API_URL = "http://visual_validator_api:8000/verify"
 #HEALTH_URL = "http://visual_validator_api:8000/health"
-API_URL = "http://192.168.1.211:8005/verify"
-HEALTH_URL = "http://192.168.1.211:8005/health"
+#API_URL = "http://192.168.1.211:8005/verify"
+#HEALTH_URL = "http://192.168.1.211:8005/health"
 API_KEY = "seestocks_secret_key_wwRT"
+API_URL = "http://visual_validator_api:8000/verify"
+HEALTH_URL = "http://visual_validator_api:8000/health"
+
 
 MAX_WORKERS =32
 db_lock = threading.Lock()
