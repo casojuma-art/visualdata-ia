@@ -10,7 +10,7 @@ $ cd /lab/developer/docker/visualdata-ia
 
 # --- PASO PREVIO: ARRANCAR SERVIDOR LLM (RTX 5090) ---
 
-para 03b-mastar_curator
+para 03b-master_curator
 
 docker rm -f vllm-server || true && docker run -d --name vllm-server --runtime nvidia --gpus all -p 8000:8000 --ipc=host -e HF_TOKEN=mitoken -v ~/.cache/huggingface:/root/.cache/huggingface vllm/vllm-openai:latest --model hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4 --quantization awq --dtype auto --max-model-len 4096 --gpu-memory-utilization 0.95
 
@@ -45,23 +45,22 @@ resumen: Continuous Batching(con CUDA Graphs y FlashAttention) + cambiamos reque
 tmux new -s curador
 docker exec -it vi-curator bash
 cd /app
-python 03b-master_curator_v10_fast.py     #curar categoria, texto limpio
+python 03b-master_curator_v11_fast.py     #curar categoria, texto limpio
 
 
 docker exec -it vi-curator python /app/03c-master_curator_atributos_fast.py #curar atributos
 
 
-Fase 03c - La Universidad (Dataset Builder):
-$ docker exec -it vi-downloader python 03c-dataset_builder.py
+Fase 03d - La Universidad (Dataset Builder):
+$ docker exec -it vi-downloader python 03d-dataset_builder.py
 (Genera JSONL vinculando imagen con la Verdad Absoluta: cuerpo_limpio)
+docker exec -it vi-downloader python /app/03d-dataset_builder.py
+
+
 
 # --- FASE 04: LA FÁBRICA (INFERENCIA) ---
 Producción masiva de descripciones limpias y neutrales automáticas.
-docker exec -it vi-downloader env \
-  HF_TOKEN=tokenborrado \
-  PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
-  python /app/04a-train_vlm-auto-filter.py
-
+docker exec -it vi-downloader bash -c "pip install torch transformers peft bitsandbytes accelerate datasets scipy && env HF_TOKEN=tokenborrado PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python /app/04a-train_vlm-v19-stable.py"
 
 
 ===========================================================
@@ -180,6 +179,30 @@ ORDER BY Rango;"
 --------------------------------------------------------
 listado de categorias a mejorar con berth
 docker exec -it vi-downloader python 03b-master_curator-qa-categorias.py >categorias-a-mejorar.txt
+
+---------------------------------------------------------------------------
+FASE 03c - EXTRACCIÓN DE ATRIBUTOS (RTX 5090) 2000 horas para 800.000 items
+---------------------------------------------------------------------------a
+cd /lab/developer/docker/vi-curator
+docker compose up -d
+Nota técnica: Este contenedor mapea /lab/developer/docker/visualdata-ia/downloader a /app y reserva 32GB de memoria compartida para el motor vLLM.
+
+
+Objetivo: Convertir texto no estructurado en JSON de atributos técnicos.
+
+1. Ejecución:
+   $ docker exec -it vi-curator python /app/03c-master_curator_atributos_fast.py
+
+2. Proceso:
+   - Toma el 'cuerpo_limpio' y los 'atributos_originales'.
+   - Identifica valores clave: Color, Material, Talla, Peso, Eficiencia Energética.
+   - Normaliza valores (ej: "1000mm" -> "100 cm").
+
+3. Salida en DB:
+   - Columna 'atributos': JSON estructurado con pares clave-valor.
+   - Estos datos son vitales para la "Fase 03d - Dataset Builder", que los inyectará en el JSONL final.
+
+
 
 -----------------------------------------------------------
 SUB-FASE 03-C: LA UNIVERSIDAD (03c-dataset_builder.py)

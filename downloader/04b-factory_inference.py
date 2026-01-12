@@ -2,72 +2,71 @@ import torch
 import sys
 import os
 from PIL import Image
+# CORRECCIÓN: Quitamos PeftModel de aquí porque daba error
 from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
 
 # --- CONFIGURACIÓN ---
 BASE_MODEL = "google/paligemma-3b-pt-224"
-# AHORA APUNTAMOS AL MODELO DE PRODUCCIÓN (El de 2 horas)
-ADAPTER_PATH = "/lab/visualdata-ia/modelos/seestocks-vlm-v13" 
+ADAPTER_PATH = "/lab/visualdata-ia/modelos/seestocks-vlm-v19-stable" 
 DEFAULT_IMAGE = "prueba.jpg"
 
-print(f"🏭 Iniciando Inferencia (Script 04b) usando: {ADAPTER_PATH}...")
+print("🏭 Iniciando Factory Inference (Fixed Version)...")
 
-try:
-    model = PaliGemmaForConditionalGeneration.from_pretrained(
-        BASE_MODEL,
-        torch_dtype=torch.bfloat16,
-        device_map="auto",
-    ).eval()
+# 1. CARGA DEL MODELO
+# Usamos la clase nativa que sabe gestionar adaptadores sin imports raros
+model = PaliGemmaForConditionalGeneration.from_pretrained(
+    BASE_MODEL,
+    torch_dtype=torch.bfloat16,
+    device_map="auto",
+).eval()
 
-    # Intentamos cargar el adaptador. Si no existe, avisamos.
-    if os.path.exists(ADAPTER_PATH):
-        model.load_adapter(ADAPTER_PATH)
-        print("✅ Adaptador LoRA cargado correctamente.")
-    else:
-        print(f"⚠️ OJO: No encuentro el adaptador en {ADAPTER_PATH}")
-        print("   ¿Seguro que el entrenamiento de 2 horas ha terminado?")
-        sys.exit(1)
+# 2. CARGAMOS EL ADAPTADOR (LoRA)
+# Esta función interna carga lo necesario sin que tengas que importar 'peft' manualmente
+model.load_adapter(ADAPTER_PATH)
 
-    processor = AutoProcessor.from_pretrained(BASE_MODEL)
-
-except Exception as e:
-    print(f"❌ Error cargando modelo: {e}")
-    sys.exit(1)
+processor = AutoProcessor.from_pretrained(BASE_MODEL)
+print("✅ Modelo cargado correctamente.")
 
 def analizar_producto(ruta_imagen):
     if not os.path.exists(ruta_imagen):
         return f"❌ Error: No existe la imagen {ruta_imagen}"
 
-    # Prompt: Le forzamos a abrir el JSON
-    prompt = '<image>Analiza este producto: Título: ¿?\n{"titulo": "'
+    # --- TRUCO ANTI-BUCLE ---
+    # 1. <image>: Token obligatorio
+    # 2. \n: Fin de pregunta
+    # 3. {: Forzamos el inicio del JSON
+    prompt = "<image>Analiza este producto: Título: ¿?\n{"
 
     try:
         image = Image.open(ruta_imagen).convert("RGB")
         inputs = processor(text=prompt, images=image, return_tensors="pt").to(model.device)
-        input_len = inputs.input_ids.shape[-1]
 
         with torch.inference_mode():
             generated_ids = model.generate(
                 **inputs,
-                max_new_tokens=200,
-                do_sample=False,       
-                repetition_penalty=1.2
+                max_new_tokens=512,
+                do_sample=False,
+                repetition_penalty=1.1
             )
 
-        output_ids = generated_ids[0][input_len:]
-        decoded = processor.decode(output_ids, skip_special_tokens=True)
+        result = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
         
-        # Reconstruimos el JSON visualmente
-        return '{"titulo": "' + decoded
+        # Limpieza
+        parte_generada = result.split("\n")[-1].strip()
+        
+        # Reconstruimos el JSON
+        if not parte_generada.startswith("{"):
+            json_final = "{" + parte_generada
+        else:
+            json_final = parte_generada
+
+        return json_final
 
     except Exception as e:
-        return f"❌ Error inferencia: {str(e)}"
+        return f"❌ Error: {str(e)}"
 
 if __name__ == "__main__":
     target_image = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_IMAGE
     print(f"\n📸 Procesando: {target_image}...")
-    resultado = analizar_producto(target_image)
-    
-    print("\n" + "="*40)
-    print(resultado)
-    print("="*40 + "\n")
+    print(analizar_producto(target_image))
+    print("\n")
